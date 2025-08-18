@@ -1,0 +1,112 @@
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Szorongásoldás - Dr. Erdélyi Kálmán",
+  description:
+    "Szorongásoldás relaxációs és pszichológiai módszerekkel segít testi-lelki egyensúly visszaállításában, lelki okok feltárásában és tartós megnyugvásban.",
+  alternates: {
+    canonical: "/szorongasoldas-szorongas-kezelese",
+  },
+  openGraph: {
+    title: "Szorongásoldás – Dr. Erdélyi Kálmán",
+    description:
+      "Szorongásoldás relaxációs és pszichológiai módszerekkel segít testi-lelki egyensúly visszaállításában, lelki okok feltárásában és tartós megnyugvásban.",
+    //url: "https://www.erdelyimental.hu/szorongasoldas-szorongas-kezelese",
+    siteName: "Dr. Erdélyi Kálmán",
+    locale: "hu_HU",
+  },
+}
+
+export default function SzorongasoldásPage() {
+  return (
+    <div className="min-h-screen">
+      {/* Header Section */}
+      <section className="bg-light-blue py-10">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-start">
+              {/* Left Side - Title */}
+              <div>
+                <h1 className="text-2xl md:text-3xl font-medium text-dark-font">Szorongásoldás</h1>
+              </div>
+
+              {/* Right Side - Quote */}
+              <div className="flex flex-col items-end">
+                <div className="text-left">
+                  <div className="text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
+                    <p>"...boldog a csönd,</p>
+                    <p className="ml-1">ha meghalhat az emberi daltól."</p>
+                  </div>
+                </div>
+                <div className="text-right mt-1">
+                  <p className="text-dark-grey text-xs md:text-sm italic font-medium">/Weöres Sándor: Boldog/</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Content Section */}
+      <section className="py-8 bg-white mb-12">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            {/* Single Column Content */}
+            <div className="space-y-2">
+              <p className="text-dark-font leading-relaxed mb-2">
+                Minden egészséges ember tud szorongani, ha megfelelően működik a lelkiismerete. Az a szorongás kóros
+                mértékű, amely felborítja a testi és lelki egyensúlyunkat és befolyásolja kapcsolati életünket is. Azt a
+                szorongást nem kell csökkenteni, amely elősegíti erőink bevetését egy problémahelyzet megoldásában. Az
+                azonban már káros és tüneti, ha a szorongás bénulttá és tehetetlenné tesz, elszívja erőinket és
+                debilizálja gondolkodásunkat („Se kép, se hang állapot"). Ilyenkor van szükségünk a szorongás
+                feloldására különféle pszichológiai módszerek bevetésével.
+              </p>
+
+              <p className="text-dark-font leading-relaxed mb-2">
+                Alapvető szorongásoldási lehetőség a relaxáció, amelynek eltérő technikáit alkalmazzuk bizonyos
+                személyiségvonásoktól függően.
+              </p>
+
+              <p className="text-dark-font leading-relaxed mb-2">
+                Az a személy, aki inkább az aktivitást, mozgást kedveli, gyorsabban megtanulja a progresszív relaxációt,
+                amely aktív testi gyakorlatokon keresztül éri el az izmok ellazulását és az ennek következményeként
+                létrejövő lelki megnyugvást.
+              </p>
+
+              {/* Centered Image */}
+              <div className="flex justify-center">
+                <figure className="lg:max-w-[540px] lg:w-[540px]">
+                  <img
+                    src="/images/szorongasoldas.jpg"
+                    alt="Szorongásoldás művészeti ábrázolás - fa rajz kontrasztos oldalakkal, a szorongástól a belső békéig vezető utat szimbolizálva"
+                    className="w-full h-auto object-cover"
+                    style={{ maxWidth: "100%", height: "auto", width: "540px" }}
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+
+              <p className="text-dark-font leading-relaxed mb-2">
+                Az inkább testi pihenést, nyugalmat kívánó személy számára előnyösebbek a meditatív típusú ellazító
+                módszerek, amelyek belső koncentrációt, szellemi aktivitást kívánnak. Legismertebb eljárás ezek közül az
+                autogén tréning. Mivel ez a módszer a szorongásoldó és ellazító eljáráson túl a lelki eredetű testi
+                tünetek, az úgynevezett pszichoszomatikus zavarok gyógyításában is fontos szerepet játszik, ezért bővebb
+                ismertetésére a stresszkezelés kapcsán kerül sor.
+              </p>
+
+              <p className="text-dark-font leading-relaxed mb-2">
+                A szorongás tárgynélküli félelem mivoltából következik, hogy a lelki feltárás útjait is célszerű
+                végigjárnunk megkeresve azokat a mély, rejtett, elfojtott okokat, sokszor koragyermekkori élményeket,
+                amelyekből a szorongás ered.
+              </p>
+
+              <p className="text-dark-font leading-relaxed">
+                Hasznos, ha együtt alkalmazzuk az testi lazítást az okok lelki feltárásával.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}

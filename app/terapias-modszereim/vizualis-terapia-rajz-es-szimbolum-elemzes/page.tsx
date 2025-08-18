@@ -1,0 +1,93 @@
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Rejtett lelki utak vizuális megjelenítése - Dr. Erdélyi Kálmán",
+  description:
+    "A szimbólumelemzés és rajzelemzés képi kifejezésen keresztül segít feldolgozni lelki terheket, csökkenteni feszültséget és támogatni az érzelmi gyógyulást.",
+  alternates: {
+    canonical: "/vizualis-terapia-rajz-es-szimbolum-elemzes",
+  },
+  openGraph: {
+    title: "Rejtett lelki utak vizuális megjelenítése – Dr. Erdélyi Kálmán",
+    description:
+      "A szimbólumelemzés és rajzelemzés képi kifejezésen keresztül segít feldolgozni lelki terheket, csökkenteni feszültséget és támogatni az érzelmi gyógyulást.",
+    //url: "https://www.erdelyimental.hu/vizualis-terapia-rajz-es-szimbolum-elemzes",
+    siteName: "Dr. Erdélyi Kálmán",
+    locale: "hu_HU",
+  },
+}
+
+export default function VizualisMegjelenitésPage() {
+  return (
+    <div className="min-h-screen">
+      {/* Header Section */}
+      <section className="bg-light-blue py-10">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-start">
+              {/* Left Side - Title */}
+              <div>
+                <h1 className="text-2xl md:text-3xl font-medium text-dark-font lg:w-[600px]">
+                  Rejtett lelki utak vizuális megjelenítése, rajz-, szimbólum elemzés
+                </h1>
+              </div>
+
+              {/* Right Side - Quote */}
+              <div className="flex flex-col items-end">
+                <div className="text-left">
+                  <div className="text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
+                    <p>"A táj az ismeretlen mélybe kékül,</p>
+                    <p className="ml-1">nincs semmi nesz a lombokon, a fán,</p>
+                    <p className="ml-1">s tűz- csókokat kapok a tiszta égtül</p>
+                    <p className="ml-1">Én, a merész és álmodó parány."</p>
+                  </div>
+                </div>
+                <div className="text-right mt-1">
+                  <p className="text-dark-grey text-xs md:text-sm italic font-medium">/Kosztolányi Dezső: Egyedül/</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Content Section */}
+      <section className="py-8 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-[3fr_2fr] gap-12 items-start">
+              {/* Left Side - Content Paragraphs */}
+              <div className="space-y-2">
+                <p className="text-dark-font leading-relaxed mb-2">
+                  Az a munkamód, ahogy az álom dolgozik, mintát kínál számunkra ahhoz, hogyan dolgozzunk belső képekkel
+                  és belső utakon. Problémáink feldolgozásában a képi áttétel módot ad arra, hogy a számunkra fájdalmas
+                  vagy megoldhatatlannak érzett problémákat képi áttétellel feldolgozhassuk.
+                </p>
+
+                <p className="text-dark-font leading-relaxed mb-2">
+                  Ha például bánatunkat szeretnénk gondozni, enyhíteni a feszültséget, akkor a bánat többféle módon
+                  jeleníthető meg. Például lerajzolhatjuk, színek alkalmazásával megjeleníthetjük, lefesthetjük,
+                  gyurmából megformálhatjuk, sőt mozgásban is kifejezhetjük és így az áttétel során a benne foglalt és
+                  hozzá tartozó feszültséget is csökkenteni tudjuk.
+                </p>
+              </div>
+
+              {/* Right Side - Image */}
+              <div className="flex justify-center lg:justify-end -mt-6">
+                <figure className="lg:w-full max-w-md">
+                  <img
+                    src="/images/szimbolumelemzes.jpg"
+                    alt="Rejtett lelki utak vizuális megjelenítése - színes, komplex művészeti alkotás sokféle mintával és szimbólummal, a lélek rejtett útjainak ábrázolása"
+                    className="w-full h-auto object-cover"
+                    style={{ maxWidth: "100%", height: "auto" }}
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}
