@@ -33,19 +33,17 @@ export default function VizualisMegjelenitésPage() {
               </div>
 
               {/* Right Side - Quote */}
-              <div className="flex flex-col items-end">
-                <div className="text-left">
-                  <div className="text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
+              <figure className="flex flex-col items-end">
+                  <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
                     <p>"A táj az ismeretlen mélybe kékül,</p>
                     <p className="ml-1">nincs semmi nesz a lombokon, a fán,</p>
                     <p className="ml-1">s tűz- csókokat kapok a tiszta égtül</p>
                     <p className="ml-1">Én, a merész és álmodó parány."</p>
-                  </div>
-                </div>
-                <div className="text-right mt-1">
-                  <p className="text-dark-grey text-xs md:text-sm italic font-medium">/Kosztolányi Dezső: Egyedül/</p>
-                </div>
-              </div>
+                  </blockquote>
+                <figcaption className="text-right mt-1">
+                  <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Kosztolányi Dezső: Egyedül/</cite>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>

@@ -27,25 +27,23 @@ export default function AlomkozpontuTerapiaPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* Left Side - Title */}
               <div>
-                <h1 className="text-2xl md:text-3xl font-medium text-center text-dark-font lg:w-[600px] max-w-[600px]">Álomközpontú dinamikus rövidterápia</h1>
+                <h1 className="text-2xl md:text-3xl font-medium text-dark-font lg:w-[600px] max-w-[600px]">Álomközpontú dinamikus rövidterápia</h1>
               </div>
 
               {/* Right Side - Quote */}
-              <div className="flex flex-col items-end">
-                <div className="text-left">
-                  <blockquote className=" text-dark-grey text-sm md:text-base italic font-medium leading-relaxed mb-2">
+              <figure className="flex flex-col items-end">
+                <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed mb-2">
                     <p>"Akkor tűn el igaz világunk,</p>
                     <p className="ml-1">ha reggelenként ébredünk,</p>
                     <p className="ml-1">s akkor igaz valónkba látunk,</p>
                     <p className="ml-1">ha álmokat néz húnyt szemünk?"</p>
-                  </blockquote>
-                </div>
-                <div className="text-left">
-                  <p className="text-dark-grey text-xs md:text-sm italic font-medium">
+                </blockquote>
+                <figcaption className="text-left">
+                  <cite className="text-dark-grey text-xs md:text-sm italic font-medium">
                     /Kosztolányi Dezső: Plató olvasása közben/
-                  </p>
-                </div>
-              </div>
+                  </cite>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>

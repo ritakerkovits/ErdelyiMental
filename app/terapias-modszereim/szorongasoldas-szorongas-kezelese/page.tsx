@@ -31,17 +31,15 @@ export default function SzorongasoldásPage() {
               </div>
 
               {/* Right Side - Quote */}
-              <div className="flex flex-col items-end">
-                <div className="text-left">
-                  <div className="text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
+              <figure className="flex flex-col items-end">
+                  <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
                     <p>"...boldog a csönd,</p>
                     <p className="ml-1">ha meghalhat az emberi daltól."</p>
-                  </div>
-                </div>
-                <div className="text-right mt-1">
-                  <p className="text-dark-grey text-xs md:text-sm italic font-medium">/Weöres Sándor: Boldog/</p>
-                </div>
-              </div>
+                  </blockquote>
+                <figcaption className="text-right mt-1">
+                  <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Weöres Sándor: Boldog/</cite>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>

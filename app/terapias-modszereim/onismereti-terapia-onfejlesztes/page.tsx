@@ -31,22 +31,19 @@ export default function OnismeretPage() {
               </div>
 
               {/* Right Side - Quote and Author */}
-              <div className="flex flex-col items-end">
+              <figure className="flex flex-col items-end">
                 {/* Quote - Left aligned within its container */}
-                <div className="text-left">
-                  <div className="text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
+                  <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
                     <p>"Jaj, be szép, hogy vagyok,</p>
                     <p className="ml-1">Jaj, be szép, hogy vagynak.</p>
                     <p className="ml-1">Jaj, be szép, hogy minden Való szép,</p>
                     <p className="ml-1">Jaj, be szép a Szép."</p>
-                  </div>
-                </div>
-
+                  </blockquote>
                 {/* Author - Right aligned with 4px spacing */}
-                <div className="text-right mt-1">
-                  <p className="text-dark-grey text-xs md:text-sm italic font-medium">/Ady Endre: Szép a Szép/</p>
-                </div>
-              </div>
+                <figcaption className="text-right mt-1">
+                  <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Ady Endre: Szép a Szép/</cite>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>

@@ -45,7 +45,7 @@ const AboutSection = () => {
 
             {/* Right Side - Image (1 column) */}
             <div className="lg:col-span-1 flex justify-center lg:justify-end">
-              <figure className="w-[300px] min-w-[300px]">
+              <figure className="lg:w-[300px] lg:min-w-[300px]">
                 <img
                   src="\images\bemutatkozas-gondolkodo.png"
                   alt="Bemutatkozás portré - Gondolkodó szobor, az önreflexió és belső béke szimbóluma a pszichoterápiában"

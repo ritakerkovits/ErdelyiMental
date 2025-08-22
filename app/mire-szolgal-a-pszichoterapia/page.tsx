@@ -21,7 +21,7 @@ export default function MireServesPage() {
   return (
     <div className="min-h-screen">
       {/* Header Section */}
-      <section className="py-10 pb-[140px]" style={{ backgroundColor: "#FDECDD" }}>
+      <section className="py-10" style={{ backgroundColor: "#FDECDD" }}>
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-start">
@@ -31,19 +31,17 @@ export default function MireServesPage() {
               </div>
 
               {/* Right Side - Quote */}
-              <div className="flex flex-col items-end">
-                <div className="text-left">
-                  <div className="text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
+              <figure className="flex flex-col items-end">
+                  <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
                     <p>"Mindig a holnapra mosolyogok,</p>
                     <p className="ml-1">Elvágyom onnan, ahol bolyogok,</p>
                     <p className="ml-1">Úgy vágyom ide s most már szállnék,</p>
                     <p className="ml-1">Óh, én bolond, bús, beteg árnyék."</p>
-                  </div>
-                </div>
-                <div className="text-right mt-1">
-                  <p className="text-dark-grey text-xs md:text-sm italic font-medium">/Ady Endre: A két tenger partján/</p>
-                </div>
-              </div>
+                  </blockquote>
+                <figcaption className="text-right mt-1">
+                  <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Ady Endre: A két tenger partján/</cite>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>

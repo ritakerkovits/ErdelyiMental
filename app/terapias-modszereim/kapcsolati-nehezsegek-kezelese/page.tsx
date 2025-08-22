@@ -30,21 +30,19 @@ export default function KapcsolatiNehezségekPage() {
                 <h1 className="text-2xl md:text-3xl font-medium text-dark-font">Párkapcsolati nehézségek</h1>
               </div>
               {/* Right Side - Quote and Author */}
-              <div className="flex flex-col items-end">
+              <figure className="flex flex-col items-end">
                 {/* Quote - Left aligned within its container */}
-                <div className="text-left">
-                  <div className="text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
+                  <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
                     <p>"Mozdul a fű. Szél vagy zápor talán</p>
                     <p className="ml-1">Vagy egyszerűen az, hogy létezel</p>
                     <p className="ml-1">Mozdítja meg itt és most a világot."</p>
-                  </div>
-                </div>
+                  </blockquote>
 
                 {/* Author - Right aligned with 4px spacing */}
-                <div className="text-right mt-1">
-                  <p className="text-dark-grey text-xs md:text-sm italic font-medium">/Pilinszky János: Itt és Most/</p>
-                </div>
-              </div>
+                <figcaption className="text-right mt-1">
+                  <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Pilinszky János: Itt és Most/</cite>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>

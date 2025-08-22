@@ -31,24 +31,20 @@ export default function CsoportterapiaPage() {
               </div>
 
               {/* Right Side - Quote */}
-              <div className="flex flex-col items-end">
-                <div className="text-left">
-                  <div className=" text-dark-grey text-sm md:text-base italic font-medium leading-relaxed mb-2">
+              <figure className="flex flex-col items-end">
+                  <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed mb-2">
                     <p>"Szemem távában magadat látod:</p>
                     <p className="ml-1">Mint tükröd, vagyok leghűbb barátod.</p>
                     <p className="ml-1">Mint tükröd, vagyok leghűbb barátod:</p>
                     <p className="ml-1">Szemem távában magadat látod"</p>
-                  </div>
-                </div>
-                <div className="text-right">
-                  <p className="text-dark-grey text-xs md:text-sm italic font-medium">
-                    /Weöres Sándor: Ki minek gondol,
-                  </p>
-                  <p className="text-dark-grey text-xs md:text-sm italic font-medium">
+                  </blockquote>
+                <figcaption className="text-right">
+                  <cite className="text-dark-grey text-xs md:text-sm italic font-medium">
+                    /Weöres Sándor: Ki minek gondol, <br />
                     az vagyok annak.../
-                  </p>
-                </div>
-              </div>
+                  </cite>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>

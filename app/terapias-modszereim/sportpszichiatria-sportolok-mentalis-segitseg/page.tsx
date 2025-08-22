@@ -33,17 +33,15 @@ export default function SportpszichiatriaPage() {
               </div>
 
               {/* Right Side - Quote */}
-              <div className="flex flex-col items-end">
-                <div className="text-left">
-                  <div className=" text-dark-grey text-sm md:text-base italic font-medium leading-relaxed mb-2">
+              <figure className="flex flex-col items-end">
+                  <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed mb-2">
                     <p>"A nehéz feladatok megvalósításához sok idő kell,</p>
                     <p className="ml-1">a lehetetlenekhez egy kicsit még több"</p>
-                  </div>
-                </div>
-                <div className="text-right mt-1">
-                  <p className="text-dark-grey text-xs md:text-sm italic font-medium">/Percy Cerutty/</p>
-                </div>
-              </div>
+                  </blockquote>
+                <figcaption className="text-right mt-1">
+                  <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Percy Cerutty/</cite>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>

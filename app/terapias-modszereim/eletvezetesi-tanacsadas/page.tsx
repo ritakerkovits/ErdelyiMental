@@ -31,21 +31,21 @@ export default function EletvezetesiTanacsadasPage() {
               </div>
 
               {/* Right Side - Quote and Author */}
-              <div className="flex flex-col items-end">
+              <figure className="flex flex-col items-end">
                 {/* Quote - Left aligned within its container */}
-                <div className="text-left">
-                  <div className="text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
+                
+                  <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
                     <p className="italic">"Imádom a határozatlant, a törékeny hangokat és színeket.</p>
                     <p className="italic ml-1"> Mindazt, ami remeg, hullámzik és borzong és csillog.</p>
                     <p className="italic ml-1"> A hajat és a szemet, a falevelet, a selymet</p>
                     <p className="italic ml-1"> És a törékeny formák szellemiségét.”</p>
-                  </div>
-                </div>
+                  </blockquote>
+              
                 {/* Author - Right aligned with 4px spacing */}
-                <div className="text-right mt-1">
-                  <p className="text-dark-grey text-xs md:text-sm italic font-medium">/Albert Samain: Dilection/</p>
-                </div>
-              </div>
+                <figcaption className="text-right mt-1">
+                  <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Albert Samain: Dilection/</cite>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function EletvezetesiTanacsadasPage() {
 
               {/* Right Side - Image */}
               <div className="flex justify-center lg:justify-end -mt-8">
-                <figure className="w-full max-w-md">
+                <figure className="lg:w-full max-w-md">
                   <img
                     src="/images/eletvezetesi-tanacsadas.jpg"
                     alt="Életvezetési tanácsadás illusztráció - függőhíd az erdőben, szimbolizálva az életvezetési folyamat útját és a szakmai támogatást a jövő felé vezető úton"

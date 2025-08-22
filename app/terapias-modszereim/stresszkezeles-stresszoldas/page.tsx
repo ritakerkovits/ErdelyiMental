@@ -31,19 +31,17 @@ export default function StresszkezelésPage() {
               </div>
 
               {/* Right Side - Quote */}
-              <div className="flex flex-col items-end">
-                <div className="text-left">
-                  <div className="text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
+              <figure className="flex flex-col items-end">
+                  <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
                     <p>"Szökik a köd, futok utána,</p>
                     <p className="ml-1">szökik a köd, gyorsabb a lába.</p>
                     <p className="ml-1">Ködből a köd, ködből a lába,</p>
                     <p className="ml-1">Amíg test vagy, mért futsz utána?"</p>
-                  </div>
-                </div>
-                <div className="text-right mt-1">
-                  <p className="text-dark-grey  text-xs md:text-sm italic font-medium">/Zelk Zoltán: Ne siess!/</p>
-                </div>
-              </div>
+                  </blockquote>
+                <figcaption className="text-right mt-1">
+                  <cite className="text-dark-grey  text-xs md:text-sm italic font-medium">/Zelk Zoltán: Ne siess!/</cite>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>

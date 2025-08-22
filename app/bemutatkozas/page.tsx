@@ -70,12 +70,12 @@ export default function BemutatkozasPage() {
         {/* First Block - Introduction */}
         <div className="bg-white rounded-lg shadow-sm p-4 lg:p-8 mb-8 max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-            <div className="lg:col-span-1 order-2 lg:order-1">
-              <figure className="text-center my-3 w-[320px] min-w-[320px] -ml-6">
+            <div className="lg:col-span-1 order-2 lg:order-1 flex justify-center lg:justify-start">
+              <figure className="text-center my-3 lg:w-[320px] lg:min-w-[320px] -ml-6">
                 <img
                   src="/images/bemutatkozas-portrait.png"
                   alt="Dr. Erdélyi Kálmán bemutatkozás portré - pszichiáter és pszichoterapeuta professzionális képe"
-                  className="w-full max-w-sm -mb-8"
+                  className="w-full lg:max-w-sm -mb-8"
                   style={{
                     width: "320px",
                     height: "auto",

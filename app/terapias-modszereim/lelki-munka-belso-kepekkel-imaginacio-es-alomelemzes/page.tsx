@@ -33,18 +33,16 @@ export default function AlomelemzésPage() {
               </div>
 
               {/* Right Side - Quote */}
-              <div className="flex flex-col items-end">
-                <div className="text-left">
-                  <div className="text-dark-grey  text-sm md:text-base italic font-medium leading-relaxed">
+              <figure className="flex flex-col items-end">
+                  <blockquote className="text-left text-dark-grey  text-sm md:text-base italic font-medium leading-relaxed">
                     <p>"A hullámok, a hullámok, tenger-habból hogy meg árok,"</p>
                     <p className="ml-1">"fodrosulnak a hullámok, a hullámok, mint az álmok,"</p>
                     <p className="ml-1">"part-szegélyről visszahullnak a hullámok, a hullámok."</p>
-                  </div>
-                </div>
-                <div className="text-right mt-1">
-                  <p className="text-dark-grey text-xs md:text-sm italic font-medium">/Weöres Sándor: Tengermozgás/</p>
-                </div>
-              </div>
+                  </blockquote>
+                <figcaption className="text-right mt-1">
+                  <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Weöres Sándor: Tengermozgás/</cite>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>
@@ -80,7 +78,7 @@ export default function AlomelemzésPage() {
 
               {/* Right column - Image positioned at top right */}
               <div className="lg:col-span-1">
-                <figure className="max-w-[500px] lg:w-[500px] lg:-mt-6 lg:pl-8 w-full">
+                <figure className="lg:max-w-[500px] lg:w-[500px] lg:-mt-6 lg:pl-8 w-full">
                   <img
                     src="/images/imaginacio.jpg"
                     alt="Imagináció művészeti ábrázolás - fekete-fehér vázlat álomszerű tájjal, folyó vonalakkal és organikus formákkal, a belső képek világának szimbóluma"

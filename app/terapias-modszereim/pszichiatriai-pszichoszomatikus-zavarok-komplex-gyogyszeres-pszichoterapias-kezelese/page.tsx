@@ -33,17 +33,15 @@ export default function PszichiátriaKezelésPage() {
               </div>
 
               {/* Right Side - Quote */}
-              <div className="flex flex-col items-end">
-                <div className="text-left">
-                  <div className=" text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
+              <figure className="flex flex-col items-end">
+                  <blockquote className=" text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
                     <p>"Szerencse énvelem is gyakorta mulat,</p>
                     <p className="ml-1">Mind édeset, keserűt egyaránt mutat."</p>
-                  </div>
-                </div>
-                <div className="text-right mt-1">
-                  <p className="text-dark-grey text-xs md:text-sm italic font-medium">/Zrínyi Miklós: Szigeti veszedelem, 1651/</p>
-                </div>
-              </div>
+                  </blockquote>
+                <figcaption className="text-right mt-1">
+                  <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Zrínyi Miklós: Szigeti veszedelem, 1651/</cite>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>
