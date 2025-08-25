@@ -3,6 +3,10 @@
 import { useState } from "react"
 import { ChevronDown, ChevronUp } from "lucide-react"
 
+import { AnimatedElement } from "@/components/ui/animated-element"
+import { PageWrapper } from "@/components/ui/page-wrapper"
+
+
 const testimonials = [
   {
     id: 1,
@@ -179,17 +183,20 @@ export default function ReferenciakPage() {
   }
 
   return (
+  
     <div className="min-h-screen py-12 bg-peach" >
       <div className="container mx-auto px-4">
         <div className="max-w-[1180px] mx-auto">
           {/* Header */}
-          <header className="text-center mb-12">
-            <h1 className="text-xl lg:text-title-32 font-medium text-dark-font">
-              Sportolói referenciák az OSEI keretében végzett
-              <br />
-              szakmai tevékenységemről
-            </h1>
-          </header>
+          <AnimatedElement animation="fadeUp" delay={0}>
+            <header className="text-center mb-12">
+              <h1 className="text-xl lg:text-title-32 font-medium text-dark-font">
+                Sportolói referenciák az OSEI keretében végzett
+                <br />
+                szakmai tevékenységemről
+              </h1>
+            </header>
+          </AnimatedElement>
 
           {/* Testimonials */}
           <div className="space-y-8">
@@ -200,13 +207,16 @@ export default function ReferenciakPage() {
                 testimonial.id === 2 || testimonial.id === 4 || testimonial.id === 6 || testimonial.id === 8
 
               return (
+              <AnimatedElement key={testimonial.id} animation="fadeUp" delay={100 + index * 150}>
+              
                 <article
-                  key={testimonial.id}
+                  
                   className="bg-white rounded-[10px] shadow-[1px_1px_10px_rgba(0,0,0,0.1)] p-5"
                 >
                   <div className="grid lg:grid-cols-[1fr_auto] gap-6 lg:gap-8">
                     {/* Content Section - Always takes remaining space */}
-                    <div className={`flex flex-col justify-start ${isImageOnRight ? "lg:order-1" : "lg:order-2"}`}>
+                    <div className={`flex flex-col justify-start ${isImageOnRight ? "lg:order-1" : "lg:order-2"}`}
+                    >
                       <header className="mb-4">
                         <h2 className="text-2xl font-semibold text-dark-font">{testimonial.name}</h2>
                         <p className="text-lg text-dark-grey">{testimonial.title}</p>
@@ -285,6 +295,7 @@ export default function ReferenciakPage() {
                     </div>
                   </div>
                 </article>
+              </AnimatedElement>
               )
             })}
           </div>
@@ -296,5 +307,6 @@ export default function ReferenciakPage() {
       </div>
       </div>
     </div>
+  
   )
 }

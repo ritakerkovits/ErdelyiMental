@@ -1,4 +1,6 @@
 import type { Metadata } from "next"
+import { AnimatedElement } from "@/components/ui/animated-element"
+import { PageWrapper } from "@/components/ui/page-wrapper"
 
 export const metadata: Metadata = {
   title: "Sportpszichiátria - Dr. Erdélyi Kálmán",
@@ -19,6 +21,7 @@ export const metadata: Metadata = {
 
 export default function SportpszichiatriaPage() {
   return (
+    <PageWrapper>
     <div className="min-h-screen">
       {/* Header Section */}
       <section className="bg-light-blue py-10">
@@ -26,14 +29,22 @@ export default function SportpszichiatriaPage() {
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* Left Side - Title */}
+              <AnimatedElement animation="fadeUp" delay={0}>
               <div>
                 <h1 className="text-2xl md:text-3xl font-medium text-dark-font md:w-[700px]">
                   Sportpszichiátria. Sportolók, élsportolók számára mentális segítségnyújtás
                 </h1>
               </div>
+              </AnimatedElement>
 
               {/* Right Side - Quote */}
-              <figure className="flex flex-col items-end">
+              
+              <AnimatedElement
+                animation="slideLeft"
+                delay={200}
+                className="flex flex-col items-end"
+                as="figure"
+              >
                   <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed mb-2">
                     <p>"A nehéz feladatok megvalósításához sok idő kell,</p>
                     <p className="ml-1">a lehetetlenekhez egy kicsit még több"</p>
@@ -41,7 +52,7 @@ export default function SportpszichiatriaPage() {
                 <figcaption className="text-right mt-1">
                   <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Percy Cerutty/</cite>
                 </figcaption>
-              </figure>
+              </AnimatedElement>
             </div>
           </div>
         </div>
@@ -52,6 +63,7 @@ export default function SportpszichiatriaPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="space-y-2">
+            <AnimatedElement animation="fadeUp" delay={300}>
               <p className="text-dark-font leading-relaxed mb-2 lg:w-[900px]">
                 A mentális stabilitás szükséges alap! Ahhoz, hogy (él)sportolóként jól teljesítsen, önmagával is jóban
                 kell lennie! Nem minden ember sportoló, de minden sportoló ember. Önálló entitás - személyes
@@ -59,7 +71,8 @@ export default function SportpszichiatriaPage() {
                 jelenben megélt - többek között magánélethez, edzőhöz, az elvárt teljesítményekhez köthető - traumatikus
                 élményei, lelki konfliktusai.
               </p>
-
+              </AnimatedElement>
+              <AnimatedElement animation="fadeUp" delay={400}>
               <p className="text-dark-font leading-relaxed mb-2 lg:w-[900px]">
                 Az (él)sportoló tüneteit, múltját, jelenét ilyenkor többnyire szégyelli, titkolja, sokszor úgy érzi, nem
                 engedheti meg, hogy látszódjon rajta a gyengesége. Küzd, a lelke sérült, egyedül van. Ilyenkor "belül"
@@ -68,6 +81,7 @@ export default function SportpszichiatriaPage() {
                 tudom élni és érezni a megélt csodákat ugyanúgy, mint a kísérő nehézségeket, bizonytalanságokat,
                 elakadást, sebezhetőséget.
               </p>
+              </AnimatedElement>
             </div>
           </div>
         </div>
@@ -78,12 +92,15 @@ export default function SportpszichiatriaPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="space-y-6 lg:w-[900px]">
+              <AnimatedElement animation="fadeUp" delay={500}>
               <h2 className="text-xl font-semibold text-dark-font mb-2">
                 Jellemző problémakörök, igények, amivel megkeresnek
               </h2>
+              </AnimatedElement>
 
               <div className="space-y-2 text-dark-font leading-relaxed">
                 <ul className="space-y-2 ml-6">
+                  <AnimatedElement animation="fadeUp" delay={600}>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-dark-blue rounded-full mr-3 mt-2 flex-shrink-0"></span>
                     Versenyhelyzetben tapasztalt csökkent vagy várakozásnak nem megfelelő teljesítmény. A sportoló edzések
@@ -115,6 +132,7 @@ export default function SportpszichiatriaPage() {
                     <span className="w-2 h-2 bg-dark-blue rounded-full mr-3 mt-2 flex-shrink-0"></span>
                     Burn out
                   </li>
+                </AnimatedElement>
                 </ul>
               </div>
             </div>
@@ -126,13 +144,18 @@ export default function SportpszichiatriaPage() {
       <section className="py-8 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
+            <AnimatedElement animation="fadeUp" delay={700}>
             <h2 className="text-xl font-semibold text-dark-font mb-2">
               Sportpszichiátriai szolgáltatások, mentális segítségnyújtás:
             </h2>
+            </AnimatedElement>
+            
 
             <div className="grid lg:grid-cols-3 gap-12 items-start">
               {/* Left Side - Bullet Points */}
               <div className="lg:col-span-2">
+
+                <AnimatedElement animation="fadeUp" delay={700}>
                 <ul className="space-y-1 text-dark-font leading-relaxed ml-4 md:ml-6">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-dark-blue rounded-full mr-3 mt-2 flex-shrink-0"></span>
@@ -186,10 +209,16 @@ export default function SportpszichiatriaPage() {
                     konfliktuskezelés lehetőségei)
                   </li>
                 </ul>
+                </AnimatedElement>
               </div>
 
               {/* Right Side - Vertical Image */}
-              <div className="lg:col-span-1 flex justify-center lg:justify-end -mt-12">
+              
+              <AnimatedElement
+                animation="slideLeft"
+                delay={400}
+                className="lg:col-span-1 flex justify-center lg:justify-end -mt-12"
+              >
                 <figure className="lg:w-[400px] lg:min-w-[400px]">
                   <img
                     src="\images\sportpszichiatria.jpg"
@@ -199,11 +228,12 @@ export default function SportpszichiatriaPage() {
                     loading="lazy"
                   />
                 </figure>
-              </div>
+              </AnimatedElement>
             </div>
           </div>
         </div>
       </section>
     </div>
+  </PageWrapper>
   )
 }

@@ -4,9 +4,11 @@ import PsychotherapyPurposeSection from "@/components/PsychotherapyPurposeSectio
 import ServicesSection from "@/components/ServicesSection"
 import ContactSection from "@/components/ContactSection"
 import SpecialtiesSection from "@/components/SpecialtiesSection"
+import { PageWrapper } from "@/components/ui/page-wrapper"
 
 export default function HomePage() {
   return (
+    <PageWrapper>
     <>
       <HeroSection />
       <AboutSection />
@@ -15,5 +17,6 @@ export default function HomePage() {
       <SpecialtiesSection />
       <ContactSection />
     </>
+    </PageWrapper>
   )
 }

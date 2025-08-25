@@ -2,6 +2,8 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import Image from "next/image"
+import { AnimatedElement } from "@/components/ui/animated-element"
+import { PageWrapper } from "@/components/ui/page-wrapper"
 
 export const metadata: Metadata = {
   title: "Terápiás módszereim - Dr. Erdélyi Kálmán",
@@ -88,16 +90,20 @@ export default function TerapiasModszereimPage() {
   ]
 
   return (
+    <PageWrapper>
     <div className="min-h-screen">
       {/* Main Therapy Methods Section */}
       <section className="py-16 bg-peach" >
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
+            <AnimatedElement animation="fadeUp" delay={0}>
             <h1 className="text-title-32 font-medium text-dark-font mb-12">Önismereti és terápiás módszereim</h1>
-
+            </AnimatedElement>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {therapyMethods.map((method, index) => {
                 return (
+                  <AnimatedElement key={index} animation="fadeUp" delay={100 + index * 100}>
+                        <article role="listitem"></article>
                   <Link
                     key={index}
                     href={method.link}
@@ -196,6 +202,7 @@ export default function TerapiasModszereimPage() {
                       </div>
                     </article>
                   </Link>
+                  </AnimatedElement>
                 )
               })}
             </div>
@@ -209,17 +216,26 @@ export default function TerapiasModszereimPage() {
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Left Side - Title - Vertically Centered */}
-              <div className="lg:pr-8 flex items-center justify-center lg:justify-start text-center lg:text-left">
+              
+              <AnimatedElement
+                    animation="slideRight"
+                    delay={900}
+                    className="lg:pr-8 flex items-center justify-center lg:justify-start text-center lg:text-left"
+                    as="header"
+                  >
                 <h2 className="text-3xl font-medium text-dark-font leading-tight">
                   Ismerje meg
                   <br />
                   kiemelt szakterületeimet
                 </h2>
-              </div>
+                </AnimatedElement>
+              
 
               {/* Right Side - Specialty Cards */}
               <div className="space-y-4">
                 {specialties.map((specialty, index) => (
+                  <AnimatedElement key={index} animation="slideLeft" delay={1000 + index * 150}>
+                          
                   <Link
                     key={index}
                     href={specialty.link}
@@ -233,6 +249,8 @@ export default function TerapiasModszereimPage() {
                       />
                     </div>
                   </Link>
+                  
+                  </AnimatedElement>
                 ))}
               </div>
             </div>
@@ -240,5 +258,6 @@ export default function TerapiasModszereimPage() {
         </div>
       </section>
     </div>
+    </PageWrapper>
   )
 }

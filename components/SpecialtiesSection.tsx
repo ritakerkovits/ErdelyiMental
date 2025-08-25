@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
+import { AnimatedElement } from "@/components/ui/animated-element"
 
 const SpecialtiesSection = () => {
   const specialties = [
@@ -23,19 +24,26 @@ const SpecialtiesSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Title Section - Left Side - Vertically Centered */}
-            <div className="lg:pr-8 flex items-center justify-center lg:justify-start text-center lg:text-left">
+            <AnimatedElement
+              animation="slideRight"
+              delay={0}
+              className="lg:pr-8 flex items-center justify-center lg:justify-start text-center lg:text-left"
+            >
+          
               <h2 className="text-[22px] md:text-3xl font-medium text-dark-font leading-tight">
                 Ismerje meg
                 <br />
                 kiemelt szakterületeimet
               </h2>
-            </div>
+            </AnimatedElement>
 
             {/* Cards Section - Right Side */}
             <div className="space-y-4">
               {specialties.map((specialty, index) => (
+                <AnimatedElement key={index} animation="slideLeft" delay={100 + index * 150}>
+                  
                 <Link
-                  key={index}
+                  
                   href={specialty.link}
                   className="block bg-dark-blue text-light-font p-6 rounded-md hover:bg-dark-blue/90 transition-colors duration-200 group"
                 >
@@ -47,6 +55,7 @@ const SpecialtiesSection = () => {
                     />
                   </div>
                 </Link>
+                </AnimatedElement>
               ))}
             </div>
           </div>

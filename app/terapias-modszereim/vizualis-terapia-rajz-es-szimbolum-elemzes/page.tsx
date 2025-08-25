@@ -1,4 +1,6 @@
 import type { Metadata } from "next"
+import { AnimatedElement } from "@/components/ui/animated-element"
+import { PageWrapper } from "@/components/ui/page-wrapper"
 
 export const metadata: Metadata = {
   title: "Rejtett lelki utak vizuális megjelenítése - Dr. Erdélyi Kálmán",
@@ -19,6 +21,7 @@ export const metadata: Metadata = {
 
 export default function VizualisMegjelenitésPage() {
   return (
+    <PageWrapper>
     <div className="min-h-screen">
       {/* Header Section */}
       <section className="bg-light-blue py-10">
@@ -26,14 +29,21 @@ export default function VizualisMegjelenitésPage() {
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* Left Side - Title */}
+              <AnimatedElement animation="fadeUp" delay={0}>
               <div>
                 <h1 className="text-2xl md:text-3xl font-medium text-dark-font lg:w-[600px]">
                   Rejtett lelki utak vizuális megjelenítése, rajz-, szimbólum elemzés
                 </h1>
               </div>
+              </AnimatedElement>
 
               {/* Right Side - Quote */}
-              <figure className="flex flex-col items-end">
+              <AnimatedElement
+                animation="slideLeft"
+                delay={200}
+                className="flex flex-col items-end"
+                as="figure"
+              >
                   <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
                     <p>"A táj az ismeretlen mélybe kékül,</p>
                     <p className="ml-1">nincs semmi nesz a lombokon, a fán,</p>
@@ -43,7 +53,7 @@ export default function VizualisMegjelenitésPage() {
                 <figcaption className="text-right mt-1">
                   <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Kosztolányi Dezső: Egyedül/</cite>
                 </figcaption>
-              </figure>
+              </AnimatedElement>
             </div>
           </div>
         </div>
@@ -56,22 +66,30 @@ export default function VizualisMegjelenitésPage() {
             <div className="grid lg:grid-cols-[3fr_2fr] gap-12 items-start">
               {/* Left Side - Content Paragraphs */}
               <div className="space-y-2">
+                <AnimatedElement animation="fadeUp" delay={300}>
                 <p className="text-dark-font leading-relaxed mb-2">
                   Az a munkamód, ahogy az álom dolgozik, mintát kínál számunkra ahhoz, hogyan dolgozzunk belső képekkel
                   és belső utakon. Problémáink feldolgozásában a képi áttétel módot ad arra, hogy a számunkra fájdalmas
                   vagy megoldhatatlannak érzett problémákat képi áttétellel feldolgozhassuk.
                 </p>
-
+                </AnimatedElement>
+                <AnimatedElement animation="fadeUp" delay={400}>
                 <p className="text-dark-font leading-relaxed mb-2">
                   Ha például bánatunkat szeretnénk gondozni, enyhíteni a feszültséget, akkor a bánat többféle módon
                   jeleníthető meg. Például lerajzolhatjuk, színek alkalmazásával megjeleníthetjük, lefesthetjük,
                   gyurmából megformálhatjuk, sőt mozgásban is kifejezhetjük és így az áttétel során a benne foglalt és
                   hozzá tartozó feszültséget is csökkenteni tudjuk.
                 </p>
+                </AnimatedElement>
               </div>
 
               {/* Right Side - Image */}
-              <div className="flex justify-center lg:justify-end -mt-6">
+              
+              <AnimatedElement
+                animation="slideLeft"
+                delay={300}
+                className="flex justify-center lg:justify-end -mt-6"
+              >
                 <figure className="lg:w-full max-w-md">
                   <img
                     src="/images/szimbolumelemzes.jpg"
@@ -81,11 +99,12 @@ export default function VizualisMegjelenitésPage() {
                     loading="lazy"
                   />
                 </figure>
-              </div>
+              </AnimatedElement>
             </div>
           </div>
         </div>
       </section>
     </div>
+  </PageWrapper>
   )
 }

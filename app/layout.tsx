@@ -52,7 +52,9 @@ export default function RootLayout({
     <html lang="hu">
       <body className={inter.className}>
         <Header />
-        <main>{children}</main>
+        <main role="main" id="main-content" className="animate-gpu">
+          <div className="page-transition-container">{children}</div>
+        </main>
         <Footer />
       </body>
     </html>

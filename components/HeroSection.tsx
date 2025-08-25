@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { AnimatedElement } from "@/components/ui/animated-element"
 
 const HeroSection = () => {
   return (
@@ -10,14 +11,17 @@ const HeroSection = () => {
             {/* Left Side Content */}
             <div className="space-y-8">
               {/* Title and Subtitle */}
+              <AnimatedElement animation="fadeUp" delay={0}>
               <div>
                 <h1 className="text-[22px] md:text-4xl text-dark-font font-medium leading-tight mb-1 lg:w-full lg:max-w-[900px]">Pszichoterápiás magánrendelés</h1>
                 <h2 className="text-xl md:text-3xl text-dark-font font-medium leading-tight w-full max-w-[800px]">
                   Mentális segítségnyújtás sportolók és élsportolók számára
                 </h2>
               </div>
+              </AnimatedElement>
 
               {/* Quote Section */}
+              <AnimatedElement animation="fadeUp" delay={200}>
               <div className="flex flex-col justify-between max-w-sm">
                 <div className="text-left">
                   <blockquote className="italic text-dark-font text-sm lg:text-base leading-relaxed">
@@ -29,8 +33,10 @@ const HeroSection = () => {
                   <cite className="text-sm lg:text-base italic">/Blaise Pascal <span className="text-xs lg:text-[14px]">1623-1662/</span></cite>
                 </div>
               </div>
+              </AnimatedElement>
 
               {/* Staircase Steps Image */}
+              <AnimatedElement animation="fadeUp" delay={400}>
               <div className="py-1 lg:-ml-16">
                 <img
                   src="/images/step3.png"
@@ -38,8 +44,10 @@ const HeroSection = () => {
                   className="w-full max-w-lg mx-auto"
                 />
               </div>
+              </AnimatedElement>
 
               {/* Buttons */}
+              <AnimatedElement animation="fadeUp" delay={600}>
               <div className="flex flex-col lg:flex-row gap-4">
                 <Link
                   href="/kapcsolat"
@@ -54,9 +62,11 @@ const HeroSection = () => {
                   Terápiás módszereim
                 </Link>
               </div>
+              </AnimatedElement>
             </div>
 
             {/* Right Side - Vertical Profile Image */}
+            <AnimatedElement animation="slideLeft" delay={300}>
             <div className="flex flex-col items-center lg:items-end">
               <figure className="relative">
                 <img
@@ -82,6 +92,7 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
+            </AnimatedElement>
           </div>
         </div>
       </div>

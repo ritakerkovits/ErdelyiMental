@@ -1,4 +1,6 @@
 import type { Metadata } from "next"
+import { AnimatedElement } from "@/components/ui/animated-element"
+import { PageWrapper } from "@/components/ui/page-wrapper"
 
 export const metadata: Metadata = {
   title: "Álomközpontú dinamikus rövidterápia - Dr. Erdélyi Kálmán",
@@ -19,6 +21,7 @@ export const metadata: Metadata = {
 
 export default function AlomkozpontuTerapiaPage() {
   return (
+    <PageWrapper>
     <div className="min-h-screen">
       {/* Header Section */}
       <section className="bg-light-blue py-10">
@@ -26,12 +29,18 @@ export default function AlomkozpontuTerapiaPage() {
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* Left Side - Title */}
+              <AnimatedElement animation="fadeUp" delay={0}>
               <div>
                 <h1 className="text-2xl md:text-3xl font-medium text-dark-font lg:w-[600px] max-w-[600px]">Álomközpontú dinamikus rövidterápia</h1>
               </div>
-
+              </AnimatedElement>
               {/* Right Side - Quote */}
-              <figure className="flex flex-col items-end">
+              <AnimatedElement
+                animation="slideLeft"
+                delay={200}
+                className="flex flex-col items-end"
+                as="figure"
+              >
                 <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed mb-2">
                     <p>"Akkor tűn el igaz világunk,</p>
                     <p className="ml-1">ha reggelenként ébredünk,</p>
@@ -43,7 +52,7 @@ export default function AlomkozpontuTerapiaPage() {
                     /Kosztolányi Dezső: Plató olvasása közben/
                   </cite>
                 </figcaption>
-              </figure>
+              </AnimatedElement>
             </div>
           </div>
         </div>
@@ -56,12 +65,14 @@ export default function AlomkozpontuTerapiaPage() {
             <div className="grid lg:grid-cols-3 gap-12 items-start">
               {/* Left Side - Content Paragraphs */}
               <div className="space-y-2 lg:col-span-2">
+                <AnimatedElement animation="fadeUp" delay={300}>
                 <p className="text-dark-font leading-relaxed mb-2">
                   Petőfi jól ismert verse („Jövendölés") pontosan fogalmazza meg azt az igazságot, amit a szakemberek
                   régóta tudnak és a tudományos kutatások is bizonyítanak: Álmaink képi nyelven fogalmazzák meg és
                   fejezik ki rejtett vágyainkat és magunkban hordozott feszültségeinket.
                 </p>
-
+                </AnimatedElement>
+                <AnimatedElement animation="fadeUp" delay={400}>
                 <p className="text-dark-font leading-relaxed mb-2">
                   Az álombeszéd nyelve a kép, amely szimbolikusan jeleníti meg érzelmi tudatunk üzenetét. Ez a nyelv
                   sűrítetten hordozza mondanivalóját és sajátos törvényszerűségeket fedezhetünk fel benne. Ezeket az
@@ -69,7 +80,8 @@ export default function AlomkozpontuTerapiaPage() {
                   megjeleníteni szervezetünk egészségéről vagy betegségéről, lelki problémáinkról és kapcsolati
                   zavarainkról. Új rálátásokhoz és megoldásokhoz segít bennünket.
                 </p>
-
+                </AnimatedElement>
+                <AnimatedElement animation="fadeUp" delay={500}>
                 <p className="text-dark-font leading-relaxed mb-2">
                   Az álomelemzés módszerét ebben a különleges terápiás folyamatban magunk is megtanuljuk, ugyanakkor
                   ezzel a módszerrel megértjük a legrejtettebb lelki feszültségeinket is. Ennek a terápiának az a
@@ -80,10 +92,16 @@ export default function AlomkozpontuTerapiaPage() {
                   Az álomelemző rövidterápia kizárólag álmokkal dolgozik, ezért intenzív és koncentrált lelki munkát
                   kíván és a tapasztalat szerint segít rövid idő alatt feltárni és „kibogozni" a lelki problémákat.
                 </p>
+                </AnimatedElement>
               </div>
 
               {/* Right Side - Image */}
-              <div className="flex justify-center lg:justify-end -mt-8">
+              
+              <AnimatedElement
+                animation="slideLeft"
+                delay={400}
+                className="flex justify-center lg:justify-end -mt-8"
+              >
                 <figure className="w-full max-w-md">
                   <img
                     src="\images\alomkozpontu-terapia.jpg"
@@ -93,11 +111,12 @@ export default function AlomkozpontuTerapiaPage() {
                     loading="lazy"
                   />
                 </figure>
-              </div>
+              </AnimatedElement>
             </div>
           </div>
         </div>
       </section>
     </div>
+    </PageWrapper>
   )
 }

@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import Image from "next/image"
+import { AnimatedElement } from "@/components/ui/animated-element"
 
 const ServicesSection = () => {
   const services = [
@@ -58,13 +59,15 @@ const ServicesSection = () => {
     <section className="py-16 bg-peach">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
+          <AnimatedElement animation="fadeUp" delay={0}>
           <h2 className="text-[22px] md:text-3xl font-medium text-dark-font mb-10">Önismereti és terápiás módszereim</h2>
-
+          </AnimatedElement>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {services.map((service, index) => {
               return (
+                <AnimatedElement key={index} animation="fadeUp" delay={100 + index * 100}>
                 <Link
-                  key={index}
+                  
                   href={service.link}
                   className="group block bg-white rounded-tr-lg rounded-br-lg border-l-4 border-dark-blue shadow-sm hover:shadow-lg hover:border-2 hover:border-dark-blue hover:border-l-4 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-dark-blue focus:ring-offset-2 h-auto lg:h-[214px]"
                   
@@ -160,6 +163,7 @@ const ServicesSection = () => {
                     </div>
                   </article>
                 </Link>
+                </AnimatedElement>
               )
             })}
           </div>

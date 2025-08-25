@@ -1,4 +1,5 @@
 import { Phone, MapPin, Calendar } from "lucide-react"
+import { AnimatedElement } from "@/components/ui/animated-element"
 
 const ContactSection = () => {
   return (
@@ -7,13 +8,19 @@ const ContactSection = () => {
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-12">
+            <AnimatedElement animation="fadeUp" delay={0}>
             <h2 className="text-3xl font-medium text-dark-font mb-6">Kapcsolat</h2>
+            </AnimatedElement>
             <div className="max-w-2xl mx-auto space-y-2">
-              <p className="text-dark-font font-regular text-lg">
-                A jelentkezőket csendes, nyugodt környezetben várom. Magánrendelésem Budapest 2. kerületében Pasaréten
-                működik.
-              </p>
+              <AnimatedElement animation="fadeUp" delay={100}>
+                <p className="text-dark-font font-regular text-lg">
+                  A jelentkezőket csendes, nyugodt környezetben várom. Magánrendelésem Budapest 2. kerületében Pasaréten
+                  működik.
+                </p>
+              </AnimatedElement>
+              <AnimatedElement animation="fadeUp" delay={200}>
               <p className="text-dark-font font-medium text-lg">Bejelentkezéshez kérem hívja az itt megadott telefonszámot.</p>
+              </AnimatedElement>
             </div>
           </div>
 
@@ -22,6 +29,7 @@ const ContactSection = () => {
             {/* Left Side - Info Cards (2/5 of width) */}
             <div className="lg:col-span-2 space-y-8">
               {/* Phone Card */}
+              <AnimatedElement animation="slideRight" delay={300}>
               <div className="bg-light-blue p-6 rounded-md shadow-md">
                 <div className="flex items-center mb-4">
                   <Phone className="text-dark-font mr-3 flex-shrink-0" size={18} />
@@ -35,8 +43,10 @@ const ContactSection = () => {
                   8:00 - 10:00 valamint 20:00 - 22:00 között
                 </p>
               </div>
+              </AnimatedElement>
 
               {/* Address Card */}
+              <AnimatedElement animation="slideRight" delay={450}>
               <div className="bg-light-blue p-6 rounded-md shadow-md">
                 <div className="flex items-center mb-4">
                   <MapPin className="text-dark-font mr-3 flex-shrink-0" size={18} />
@@ -50,8 +60,10 @@ const ContactSection = () => {
                   egyaránt könnyen elérhető.
                 </p>
               </div>
+              </AnimatedElement>
 
               {/* Office Hours Card */}
+              <AnimatedElement animation="slideRight" delay={600}>
               <div className="bg-light-blue p-6 rounded-md shadow-md">
                 <div className="flex items-center mb-4">
                   <Calendar className="text-dark-font mr-3 flex-shrink-0" size={18} />
@@ -65,13 +77,13 @@ const ContactSection = () => {
                   <p>Csütörtök: 16:00 - 20:00</p>
                 </div>
               </div>
+              </AnimatedElement>
             </div>
 
             {/* Right Side - Map (3/5 of width) - Height matches cards exactly */}
-            <div className="lg:col-span-3">
-              <div
-                className="h-full min-h-[300px] sm:min-h-[400px] md:min-h-[500px] rounded-lg overflow-hidden shadow-md"
-              >
+            <AnimatedElement animation="slideLeft" delay={400} className="lg:col-span-3">
+              <div className="h-full min-h-[300px] sm:min-h-[400px] md:min-h-[500px] rounded-lg overflow-hidden shadow-sm">
+            
                 <a
                   href="https://maps.google.com/maps?q=1026+Budapest,+Gyergyó+u.+8"
                   target="_blank"
@@ -92,7 +104,8 @@ const ContactSection = () => {
                   ></iframe>
                 </a>
               </div>
-            </div>
+            
+            </AnimatedElement>
           </div>
         </div>
       </div>

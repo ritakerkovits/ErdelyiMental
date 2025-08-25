@@ -1,5 +1,7 @@
 import type { Metadata } from "next"
 import { Phone, MapPin, Calendar } from "lucide-react"
+import { AnimatedElement } from "@/components/ui/animated-element"
+import { PageWrapper } from "@/components/ui/page-wrapper"
 
 export const metadata: Metadata = {
   title: "Kapcsolat - Dr. Erdélyi Kálmán",
@@ -20,19 +22,26 @@ export const metadata: Metadata = {
 
 export default function KapcsolatPage() {
   return (
+    <PageWrapper>
     <div className="min-h-screen" style={{ backgroundColor: "#EDF0F3" }}>
       <div className="py-12 pb-[140px]">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             {/* Header Section */}
             <div className="text-center mb-12">
+              <AnimatedElement animation="fadeUp" delay={0}>
               <h1 className="text-3xl font-semibold text-dark-font mb-6">Kapcsolat</h1>
+              </AnimatedElement>
               <div className="max-w-2xl mx-auto space-y-2">
+              <AnimatedElement animation="fadeUp" delay={100}>
                 <p className="text-dark-font text-lg">
                   A jelentkezőket csendes, nyugodt környezetben várom. Magánrendelésem Budapest 2. kerületében Pasaréten
                   működik.
                 </p>
+              </AnimatedElement>
+              <AnimatedElement animation="fadeUp" delay={200}>
                 <p className="text-dark-font text-lg font-medium">Bejelentkezéshez kérem hívja az itt megadott telefonszámot.</p>
+              </AnimatedElement>
               </div>
             </div>
 
@@ -40,8 +49,15 @@ export default function KapcsolatPage() {
             <div className="grid lg:grid-cols-5 gap-8 items-stretch">
               {/* Left Side - Info Cards (1/3 of width = 2 columns out of 5) */}
               <div className="lg:col-span-2 space-y-8">
+                
                 {/* Phone Card */}
-                <div className="bg-white p-6 rounded-lg shadow-sm">
+                <AnimatedElement
+                        animation="slideRight"
+                        delay={300}
+                        className="bg-white p-6 rounded-lg shadow-sm"
+                        as="article"
+                        aria-labelledby="phone-heading"
+                >
                   <div className="flex items-center mb-4">
                     <Phone className="text-dark-font mr-3 flex-shrink-0" size={18} />
                     <h2 className="text-xl font-semibold" style={{ fontSize: "20px", color: "#4B5563" }}>
@@ -53,10 +69,17 @@ export default function KapcsolatPage() {
                     <br />
                     8:00 - 10:00 valamint 20:00 - 22:00 között
                   </p>
-                </div>
+                </AnimatedElement>
+                
 
                 {/* Address Card */}
-                <div className="bg-white p-6 rounded-md shadow-md">
+                <AnimatedElement
+                        animation="slideRight"
+                        delay={450}
+                        className="bg-white p-6 rounded-lg shadow-sm"
+                        as="article"
+                        aria-labelledby="address-heading"
+                >
                   <div className="flex items-center mb-4">
                     <MapPin className="text-dark-font mr-3 flex-shrink-0" size={18} />
                     <h2 className="text-xl font-semibold" style={{ fontSize: "20px", color: "#4B5563" }}>
@@ -68,10 +91,16 @@ export default function KapcsolatPage() {
                     <br />
                     egyaránt könnyen elérhető.
                   </p>
-                </div>
+                </AnimatedElement>
 
                 {/* Office Hours Card */}
-                <div className="bg-white p-6 rounded-md shadow-md">
+                <AnimatedElement
+                        animation="slideRight"
+                        delay={600}
+                        className="bg-white p-6 rounded-lg shadow-sm"
+                        as="article"
+                        aria-labelledby="hours-heading"
+                >
                   <div className="flex items-center mb-4">
                     <Calendar className="text-dark-font mr-3 flex-shrink-0" size={18} />
                     <h2 className="text-xl font-semibold" style={{ fontSize: "20px", color: "#4B5563" }}>
@@ -83,11 +112,17 @@ export default function KapcsolatPage() {
                     <p>Szerda: 08:00 - 11:00</p>
                     <p>Csütörtök: 16:00 - 20:00</p>
                   </div>
-                </div>
+                </AnimatedElement>
               </div>
 
               {/* Right Side - Map (2/3 of width = 3 columns out of 5) */}
-              <div className="lg:col-span-3">
+              <AnimatedElement
+                      animation="slideLeft"
+                      delay={400}
+                      className="lg:col-span-3"
+                      as="section"
+                      aria-labelledby="map-heading"
+              >
                 <div className="h-full min-h-[300px] sm:min-h-[400px] md:min-h-[500px] rounded-lg overflow-hidden shadow-sm">
                   <a
                     href="https://maps.google.com/maps?q=1026+Budapest,+Gyergyó+u.+8"
@@ -108,11 +143,12 @@ export default function KapcsolatPage() {
                     ></iframe>
                   </a>
                 </div>
-              </div>
+              </AnimatedElement>
             </div>
           </div>
         </div>
       </div>
     </div>
+    </PageWrapper>
   )
 }

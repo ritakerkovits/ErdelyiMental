@@ -1,4 +1,6 @@
 import type { Metadata } from "next"
+import { AnimatedElement } from "@/components/ui/animated-element"
+import { PageWrapper } from "@/components/ui/page-wrapper"
 
 export const metadata: Metadata = {
   title: "Stresszkezelés - Dr. Erdélyi Kálmán",
@@ -19,6 +21,7 @@ export const metadata: Metadata = {
 
 export default function StresszkezelésPage() {
   return (
+    <PageWrapper>
     <div className="min-h-screen">
       {/* Header Section */}
       <section className="bg-light-blue py-10">
@@ -26,12 +29,19 @@ export default function StresszkezelésPage() {
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* Left Side - Title */}
+              <AnimatedElement animation="fadeUp" delay={0}>
               <div>
                 <h1 className="text-2xl md:text-3xl font-medium text-dark-font">Stresszkezelés</h1>
               </div>
+              </AnimatedElement>
 
               {/* Right Side - Quote */}
-              <figure className="flex flex-col items-end">
+              <AnimatedElement
+                animation="slideLeft"
+                delay={200}
+                className="flex flex-col items-end"
+                as="figure"
+              >
                   <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
                     <p>"Szökik a köd, futok utána,</p>
                     <p className="ml-1">szökik a köd, gyorsabb a lába.</p>
@@ -41,7 +51,7 @@ export default function StresszkezelésPage() {
                 <figcaption className="text-right mt-1">
                   <cite className="text-dark-grey  text-xs md:text-sm italic font-medium">/Zelk Zoltán: Ne siess!/</cite>
                 </figcaption>
-              </figure>
+              </AnimatedElement>
             </div>
           </div>
         </div>
@@ -53,6 +63,7 @@ export default function StresszkezelésPage() {
           <div className="max-w-6xl mx-auto">
             {/* Content with embedded image */}
             <div className="space-y-2">
+              <AnimatedElement animation="fadeUp" delay={300}>
               <p className="text-dark-font leading-relaxed mb-2">
                 A stressz szokványos jelentése szerint olyan történés, amikor a minket érő környezeti behatásra nem
                 tudunk megfelelően reagálni és tehetetlenül beszorulunk egy akcióra felkészült, de cselekvőképtelen
@@ -63,10 +74,12 @@ export default function StresszkezelésPage() {
                 felajzottságért és szorongásért felelős. Ezért a stresszkezelésben meg kell tanulnunk a magas
                 feszültségi szint csökkentését és a behatásokra reagálás mértékének tompítását.
               </p>
-
+              </AnimatedElement>
+              
               <div className="relative grid lg:grid-cols-2">
                 
                 <div className="lg:col-span-1">
+                  <AnimatedElement animation="fadeUp" delay={400}>
                   <p className="text-dark-font leading-relaxed mb-2">
                     A sokféle lehetőség közül az autogén tréninget emelem ki, amely éppen a stresszben szélsőségesen
                     működő vegetatív idegrendszer működési harmonizációjára törekszik. Leginkább ellazító módszerként
@@ -74,7 +87,8 @@ export default function StresszkezelésPage() {
                     programozza a legfontosabb vegetatív működéseket és megtanít a stresszállapotok hatásainak szervezeti
                     csökkentésére.
                   </p>
-
+                  </AnimatedElement>
+                  <AnimatedElement animation="fadeUp" delay={400}>
                   <p className="text-dark-font leading-relaxed mb-2">
                     Hat gyakorlatból áll, amelyet rendszeres gyakorlással szükséges elsajátítani. Minden gyakorlat 2 hét
                     tréning időt igényel, így 3 hónap alatt lehet a módszer birtokába jutni. Az autogén tréning lehetővé
@@ -83,14 +97,20 @@ export default function StresszkezelésPage() {
                     megváltoztatását, a zsigeri vegetatív működések harmonizációját és a szellemi kipihentség és
                     felfrissülés állapotának elérését.
                   </p>
+                  </AnimatedElement>
                 </div>
-                <div className="lg:col-span-1">
+                
+                <AnimatedElement
+                animation="slideLeft"
+                delay={400}
+                className="lg:col-span-1"
+                >
                   <figure className=" ml-2 mb-4 lg:max-w-full lg:-mt-6">
                     <img
                       src="/images/stresszkezeles.jpg"
                       alt="Stresszkezelés művészeti ábrázolás - fekete-fehér rajz viharos környezetben lévő figurákkal, a stressz és megküzdés szimbóluma"
                       className="lg:w-full h-auto object-cover"
-                      
+
                       style={{
                         width: "500px",
                         height: "auto",
@@ -99,12 +119,13 @@ export default function StresszkezelésPage() {
                       loading="lazy"
                     />
                   </figure>
-                </div>
+                </AnimatedElement>
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
+  </PageWrapper>
   )
 }
