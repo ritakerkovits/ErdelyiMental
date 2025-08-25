@@ -75,9 +75,9 @@ export default function BemutatkozasPage() {
           <div className="bg-white rounded-lg shadow-sm p-4 lg:p-8 mb-8 max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
               <AnimatedElement
-                      animation="slideRight"
-                      delay={200}
-                      className="lg:col-span-1 order-2 lg:order-1 flex justify-center lg:justify-start"
+                animation="slideRight"
+                delay={200}
+                className="lg:col-span-1 order-2 lg:order-1 flex justify-center lg:justify-start"
               >              
                 <figure className="text-center my-3 lg:w-[320px] lg:min-w-[320px] -ml-6">
                   <img

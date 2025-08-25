@@ -62,9 +62,10 @@ const Header = () => {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`relative text-white hover:text-peach focus:text-peach transition-colors duration-200 font-medium pb-1 ${
-                    active ? "text-light-peach" : ""
-                  }`}
+                  className={`relative transition-colors duration-200 font-medium pb-1
+                    ${active ? "text-peach" : "text-white hover:text-peach focus:text-peach"}
+                  `}
+                  
                 >
                   {item.label}
                   {active && (
