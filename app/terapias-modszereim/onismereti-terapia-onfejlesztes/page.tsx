@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Az önismereti munka segít feltárni viselkedésünk mozgatórugóit, leküzdeni gátjainkat és finom változásokkal javítani életminőségünket.",
   alternates: {
-    canonical: "/onismereti-terapia-onfejlesztes",
+    canonical: "/terapias-modszereim/onismereti-terapia-onfejlesztes",
   },
   openGraph: {
-    title: "Önismeret – Dr. Erdélyi Kálmán",
+    title: "Önismeret - Dr. Erdélyi Kálmán",
     description:
       "Az önismereti munka segít feltárni viselkedésünk mozgatórugóit, leküzdeni gátjainkat és finom változásokkal javítani életminőségünket.",
-    //url: "https://www.erdelyimental.hu/onismereti-terapia-onfejlesztes",
+    //url: "https://www.erdelyimental.hu/terapias-modszereim/onismereti-terapia-onfejlesztes",
     siteName: "Dr. Erdélyi Kálmán",
     locale: "hu_HU",
   },

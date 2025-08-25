@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Sportpszichiátria és mentális segítségnyújtás sportolóknak, élsportolóknak: teljesítményszorongás csökkentés, stresszkezelés, mentális felkészítés versenyekre.",
   alternates: {
-    canonical: "/sportpszichiatria-sportolok-mentalis-segitseg",
+    canonical: "/terapias-modszereim/sportpszichiatria-sportolok-mentalis-segitseg",
   },
   openGraph: {
-    title: "Sportpszichiátria – Dr. Erdélyi Kálmán",
+    title: "Sportpszichiátria - Dr. Erdélyi Kálmán",
     description:
       "Sportpszichiátria és mentális segítségnyújtás sportolóknak, élsportolóknak: teljesítményszorongás csökkentés, stresszkezelés, mentális felkészítés versenyekre.",
-    //url: "https://www.erdelyimental.hu/sportpszichiatria-sportolok-mentalis-segitseg",
+    //url: "https://www.erdelyimental.hu/terapias-modszereim/sportpszichiatria-sportolok-mentalis-segitseg",
     siteName: "Dr. Erdélyi Kálmán",
     locale: "hu_HU",
   },
@@ -47,7 +47,7 @@ export default function SportpszichiatriaPage() {
               >
                   <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed mb-2">
                     <p>"A nehéz feladatok megvalósításához sok idő kell,</p>
-                    <p className="ml-1">a lehetetlenekhez egy kicsit még több"</p>
+                    <p className="ml-1">a lehetetlenekhez egy kicsit még több."</p>
                   </blockquote>
                 <figcaption className="text-right mt-1">
                   <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Percy Cerutty/</cite>
@@ -91,15 +91,15 @@ export default function SportpszichiatriaPage() {
       <section className="py-8" style={{ backgroundColor: "#FDECDD" }}>
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <div className="space-y-6 lg:w-[900px]">
+            <div className="lg:w-[900px]">
               <AnimatedElement animation="fadeUp" delay={500}>
               <h2 className="text-xl font-semibold text-dark-font mb-2">
                 Jellemző problémakörök, igények, amivel megkeresnek
               </h2>
               </AnimatedElement>
 
-              <div className="space-y-2 text-dark-font leading-relaxed">
-                <ul className="space-y-2 ml-6">
+              <div className="text-dark-font leading-relaxed">
+                <ul className="space-y-2 ml-4 md:ml-6">
                   <AnimatedElement animation="fadeUp" delay={600}>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-dark-blue rounded-full mr-3 mt-2 flex-shrink-0"></span>

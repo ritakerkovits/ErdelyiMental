@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Link from "next/link";
 import { AnimatedElement } from "@/components/ui/animated-element"
 import { PageWrapper } from "@/components/ui/page-wrapper"
 
@@ -7,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Szorongásoldás relaxációs és pszichológiai módszerekkel segít testi-lelki egyensúly visszaállításában, lelki okok feltárásában és tartós megnyugvásban.",
   alternates: {
-    canonical: "/szorongasoldas-szorongas-kezelese",
+    canonical: "/terapias-modszereim/szorongasoldas-szorongas-kezelese",
   },
   openGraph: {
-    title: "Szorongásoldás – Dr. Erdélyi Kálmán",
+    title: "Szorongásoldás - Dr. Erdélyi Kálmán",
     description:
       "Szorongásoldás relaxációs és pszichológiai módszerekkel segít testi-lelki egyensúly visszaállításában, lelki okok feltárásában és tartós megnyugvásban.",
-    //url: "https://www.erdelyimental.hu/szorongasoldas-szorongas-kezelese",
+    //url: "https://www.erdelyimental.hu/terapias-modszereim/szorongasoldas-szorongas-kezelese",
     siteName: "Dr. Erdélyi Kálmán",
     locale: "hu_HU",
   },
@@ -107,8 +108,8 @@ export default function SzorongasoldásPage() {
                 Az inkább testi pihenést, nyugalmat kívánó személy számára előnyösebbek a meditatív típusú ellazító
                 módszerek, amelyek belső koncentrációt, szellemi aktivitást kívánnak. Legismertebb eljárás ezek közül az
                 autogén tréning. Mivel ez a módszer a szorongásoldó és ellazító eljáráson túl a lelki eredetű testi
-                tünetek, az úgynevezett pszichoszomatikus zavarok gyógyításában is fontos szerepet játszik, ezért bővebb
-                ismertetésére a stresszkezelés kapcsán kerül sor.
+                tünetek, az úgynevezett {" "} <Link href="/terapias-modszereim/pszichiatriai-pszichoszomatikus-zavarok-komplex-gyogyszeres-pszichoterapias-kezelese" className="text-dark-blue underline hover:text-dark-blue/80">pszichoszomatikus zavarok gyógyításában</Link>{" "} is fontos szerepet játszik, ezért bővebb
+                ismertetésére a {" "} <Link href="/terapias-modszereim/stresszkezeles-stresszoldas" className="text-dark-blue underline hover:text-dark-blue/80">stresszkezelés</Link>{" "} kapcsán kerül sor.
               </p>
               </AnimatedElement>
               <AnimatedElement animation="fadeUp" delay={600}>

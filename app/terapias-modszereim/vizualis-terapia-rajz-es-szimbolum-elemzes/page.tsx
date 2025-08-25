@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A szimbólumelemzés és rajzelemzés képi kifejezésen keresztül segít feldolgozni lelki terheket, csökkenteni feszültséget és támogatni az érzelmi gyógyulást.",
   alternates: {
-    canonical: "/vizualis-terapia-rajz-es-szimbolum-elemzes",
+    canonical: "/terapias-modszereim/vizualis-terapia-rajz-es-szimbolum-elemzes",
   },
   openGraph: {
-    title: "Rejtett lelki utak vizuális megjelenítése – Dr. Erdélyi Kálmán",
+    title: "Rejtett lelki utak vizuális megjelenítése - Dr. Erdélyi Kálmán",
     description:
       "A szimbólumelemzés és rajzelemzés képi kifejezésen keresztül segít feldolgozni lelki terheket, csökkenteni feszültséget és támogatni az érzelmi gyógyulást.",
-    //url: "https://www.erdelyimental.hu/vizualis-terapia-rajz-es-szimbolum-elemzes",
+    //url: "https://www.erdelyimental.hu/terapias-modszereim/vizualis-terapia-rajz-es-szimbolum-elemzes",
     siteName: "Dr. Erdélyi Kálmán",
     locale: "hu_HU",
   },

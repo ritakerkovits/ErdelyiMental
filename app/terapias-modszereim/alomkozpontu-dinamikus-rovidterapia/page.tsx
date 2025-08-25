@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Az álomközpontú dinamikus rövidterápia az álmok elemzésével tárja fel a rejtett lelki feszültségeket, és segít hatékony megoldásokat találni.",
   alternates: {
-    canonical: "/alomkozpontu-dinamikus-rovidterapia",
+    canonical: "/terapias-modszereim/alomkozpontu-dinamikus-rovidterapia",
   },
   openGraph: {
-    title: "Álomközpontú dinamikus rövidterápia – Dr. Erdélyi Kálmán",
+    title: "Álomközpontú dinamikus rövidterápia - Dr. Erdélyi Kálmán",
     description:
       "Az álomközpontú dinamikus rövidterápia az álmok elemzésével tárja fel a rejtett lelki feszültségeket, és segít hatékony megoldásokat találni.",
-    //url: "https://www.erdelyimental.hu/alomkozpontu-dinamikus-rovidterapia",
+    //url: "https://www.erdelyimental.hu/terapias-modszereim/alomkozpontu-dinamikus-rovidterapia",
     siteName: "Dr. Erdélyi Kálmán",
     locale: "hu_HU",
   },
@@ -85,7 +85,7 @@ export default function AlomkozpontuTerapiaPage() {
                 <p className="text-dark-font leading-relaxed mb-2">
                   Az álomelemzés módszerét ebben a különleges terápiás folyamatban magunk is megtanuljuk, ugyanakkor
                   ezzel a módszerrel megértjük a legrejtettebb lelki feszültségeinket is. Ennek a terápiának az a
-                  haszna, hogy a képek „rejtjeles üzeneteit megtanuljuk megfejteni és ezt a tudást a továbbiakban magunk
+                  haszna, hogy a képek „rejtjeles üzeneteit" megtanuljuk megfejteni és ezt a tudást a továbbiakban magunk
                   is felhasználhatjuk.
                 </p>
                 <p className="text-dark-font leading-relaxed">

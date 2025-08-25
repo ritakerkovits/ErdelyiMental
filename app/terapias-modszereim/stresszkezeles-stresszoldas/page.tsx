@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Stresszkezelés autogén tréninggel, mely segít csökkenteni a feszültséget, harmonizálja a vegetatív idegrendszert, és támogatja a testi-lelki ellazulást.",
   alternates: {
-    canonical: "/stresszkezeles-stresszoldas",
+    canonical: "/terapias-modszereim/stresszkezeles-stresszoldas",
   },
   openGraph: {
-    title: "Stresszkezelés – Dr. Erdélyi Kálmán",
+    title: "Stresszkezelés - Dr. Erdélyi Kálmán",
     description:
       "Stresszkezelés autogén tréninggel, mely segít csökkenteni a feszültséget, harmonizálja a vegetatív idegrendszert, és támogatja a testi-lelki ellazulást.",
-    //url: "https://www.erdelyimental.hu/stresszkezeles-stresszoldas",
+    //url: "https://www.erdelyimental.hu/terapias-modszereim/stresszkezeles-stresszoldas",
     siteName: "Dr. Erdélyi Kálmán",
     locale: "hu_HU",
   },

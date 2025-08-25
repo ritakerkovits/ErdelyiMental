@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Az imagináció és álomelemzés belső képekkel segít feltárni a tudattalan üzeneteit, oldani lelki feszültségeket és támogatni a mély érzelmi változást.",
   alternates: {
-    canonical: "/lelki-munka-belso-kepekkel-imaginacio-es-alomelemzes",
+    canonical: "/terapias-modszereim/lelki-munka-belso-kepekkel-imaginacio-es-alomelemzes",
   },
   openGraph: {
     title: "Lelki munka belső képekkel és álomelemzés – Dr. Erdélyi Kálmán",
     description:
       "Az imagináció és álomelemzés belső képekkel segít feltárni a tudattalan üzeneteit, oldani lelki feszültségeket és támogatni a mély érzelmi változást.",
-    //url: "https://www.erdelyimental.hu/lelki-munka-belso-kepekkel-imaginacio-es-alomelemzes",
+    //url: "https://www.erdelyimental.hu/terapias-modszereim/lelki-munka-belso-kepekkel-imaginacio-es-alomelemzes",
     siteName: "Dr. Erdélyi Kálmán",
     locale: "hu_HU",
   },
@@ -45,9 +45,9 @@ export default function AlomelemzésPage() {
                 as="figure"
               >
                   <blockquote className="text-left text-dark-grey  text-sm md:text-base italic font-medium leading-relaxed">
-                    <p>"A hullámok, a hullámok, tenger-habból hogy meg árok,"</p>
-                    <p className="ml-1">"fodrosulnak a hullámok, a hullámok, mint az álmok,"</p>
-                    <p className="ml-1">"part-szegélyről visszahullnak a hullámok, a hullámok."</p>
+                    <p>"A hullámok, a hullámok, tenger-habból hogy meg árok,</p>
+                    <p className="ml-1">fodrosulnak a hullámok, a hullámok, mint az álmok,</p>
+                    <p className="ml-1">part-szegélyről visszahullnak a hullámok, a hullámok."</p>
                   </blockquote>
                 <figcaption className="text-right mt-1">
                   <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Weöres Sándor: Tengermozgás/</cite>

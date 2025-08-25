@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Párkapcsolati tanácsadás és terápia a konfliktusok kezelésére, kommunikáció javítására és érzelmi közeledés elősegítésére a tartós harmónia érdekében.",
   alternates: {
-    canonical: "/kapcsolati-nehezsegek-kezelese",
+    canonical: "/terapias-modszereim/kapcsolati-nehezsegek-kezelese",
   },
   openGraph: {
-    title: "Párkapcsolati nehézségek rendezése – Dr. Erdélyi Kálmán",
+    title: "Párkapcsolati nehézségek rendezése - Dr. Erdélyi Kálmán",
     description:
       "Párkapcsolati tanácsadás és terápia a konfliktusok kezelésére, kommunikáció javítására és érzelmi közeledés elősegítésére a tartós harmónia érdekében.",
-    //url: "https://www.erdelyimental.hu/kapcsolati-nehezsegek-kezelese",
+    //url: "https://www.erdelyimental.hu/terapias-modszereim/kapcsolati-nehezsegek-kezelese",
     siteName: "Dr. Erdélyi Kálmán",
     locale: "hu_HU",
   },
@@ -31,7 +31,7 @@ export default function KapcsolatiNehezségekPage() {
               {/* Left Side - Title */}
               <AnimatedElement animation="fadeUp" delay={0}>
               <div>
-                <h1 className="text-2xl md:text-3xl font-medium text-dark-font">Párkapcsolati nehézségek</h1>
+                <h1 className="text-2xl md:text-3xl font-medium text-dark-font">Párkapcsolati nehézségek rendezése</h1>
               </div>
               </AnimatedElement>
               {/* Right Side - Quote and Author */}
@@ -85,7 +85,7 @@ export default function KapcsolatiNehezségekPage() {
                   A párkonzultáció és terápia éppen elmérgesedett viszonyaikba belépve tud segíteni. Megtanít arra, hogy
                   kilépjenek vitáik rossz forgatókönyvéből, új módon tudjanak egymással kommunikálni, közös ügyeikben
                   tudjanak közös célokat kitűzni és érzelmileg is kedvező változást érhessenek el egymáshoz való
-                  viszonyukban
+                  viszonyukban.
                 </p>
                 </AnimatedElement>
               </div>

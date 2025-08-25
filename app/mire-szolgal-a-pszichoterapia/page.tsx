@@ -42,13 +42,13 @@ export default function MireServesPage() {
                 as="figure"
               >
                 <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
-                  <p>"Mindig a holnapra mosolyogok,</p>
-                  <p className="ml-1">Elvágyom onnan, ahol bolyogok,</p>
-                  <p className="ml-1">Úgy vágyom ide s most már szállnék,</p>
+                  <p>"Mindig a holnapra mosolygok,</p>
+                  <p className="ml-1">Elvágyom onnan, ahol bolygok,</p>
+                  <p className="ml-1">Úgy vágytam ide s most már szállnék,</p>
                   <p className="ml-1">Óh, én bolond, bús, beteg árnyék."</p>
                 </blockquote>
               <figcaption className="text-right mt-1">
-                <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Ady Endre: A két tenger partján/</cite>
+                <cite className="text-dark-grey text-xs md:text-sm italic font-medium">/Ady Endre: A kék tenger partján/</cite>
               </figcaption>
               </AnimatedElement>
             </div>
@@ -70,10 +70,7 @@ export default function MireServesPage() {
                     Mikor érdemes pszichoterapeutához fordulni
                   </h2>
                   <p className="text-dark-font leading-relaxed mb-2">
-                    Amikor aktuális lelki gondjai, tünetei megnehezítik az életvezetését és úgy érzi, hogy szüksége
-                    volna segítségre, akkor érdemes pszichoterapeutához fordulnia. A szakember nem hétköznapi módon
-                    foglalkozik az Ön problémáival, hanem azt a módszert választja, amivel az leginkább és leghamarabb
-                    megoldható.
+                    Amikor aktuális lelki gondjai, tünetei megnehezítik az életvezetését és úgy érzi, hogy szüksége volna segítségre, akkor érdemes pszichoterapeutához fordulnia. A szakember nem hétköznapi módon foglalkozik az Ön problémáival, hanem azt a módszert választja, amivel az leginkább és leghamarabb megoldható.
                   </p>
                   <p className="text-dark-font leading-relaxed">
                     A lelki problémák nyomásában tehetetlennek érzi magát. Jelen állapotát, de a jövőjét is
@@ -90,13 +87,7 @@ export default function MireServesPage() {
                     Hogyan lehet az állapotán kedvezően változtatni
                   </h3>
                   <p className="text-dark-font leading-relaxed">
-                    Emberileg érthető az a kívánsága, hogy egy-kettőre szűnjön meg a tünet és oldódjon meg a probléma.
-                    Csakhogy a tünetek olyan következmények, amelyeknek előtörténetük van. Látszólagos egyensúlyt
-                    teremtve védenek attól, hogy egy mélyebb, elfojtott, elfeledett lelki problémával szembesüljön,
-                    pedig éppen ez az oka a tüneteknek. A tünetek lekötik gondolatait, felhasználják energiáit és az így
-                    okozott szenvedéssel kénytelen törődni, nem a mögötte meghúzódó okokkal. Előfordulhat, hogy friss
-                    traumatikus életesemény szakít fel régi lelki sebeket, nem ritkán pedig éveken át hordozza lelki
-                    sérüléseit anélkül, hogy tudná, miért kell így szenvednie.
+                    Emberileg érthető az a kívánsága, hogy egy-kettőre szűnjön meg a tünet és oldódjon meg a probléma. Csakhogy a tünetek olyan következmények, amelyeknek előtörténetük van. Látszólagos egyensúlyt teremtve védenek attól, hogy egy mélyebb, elfojtott, elfeledett lelki problémával szembesüljön, pedig éppen ez az oka a tüneteknek. A tünetek lekötik gondolatait, felhasználják energiáit és az így okozott szenvedéssel kénytelen törődni, nem a mögötte meghúzódó okokkal. Előfordulhat, hogy friss traumatikus életesemény szakít fel régi lelki sebeket, nem ritkán pedig éveken át hordozza lelki sérüléseit anélkül, hogy tudná, miért kell így szenvednie.
                   </p>
                 </div>
                 </AnimatedElement>

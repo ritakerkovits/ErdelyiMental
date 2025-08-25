@@ -50,6 +50,7 @@ const testimonials = [
     achievements: [
       "3x Ifjúsági Európa bajnok (2021, 2022, 2023)",
       "3x Junior Világbajnok (2023); 2.h.- középtáv, 3.h.-hosszútáv, 3.h.-váltó (2025)",
+      "Világjátékok (Csengtu, Kína 2025): 6.h.- Középtáv, 6. h. - Sprint, 4. h. - Sprintváltó",
       "2x Felnőtt 6. helyezett váltó tag (2024)",
       "Sokszoros magyar bajnok tájfutó",
       "12x magyar bajnok középtávfutó",

@@ -29,7 +29,7 @@ export default function BemutatkozasPage() {
     {
       period: "2000 - 2009",
       institution:
-        "OPNI (OORI),Tündérhegyi Pszichoszomatikus és Pszichoterápiás Rehabilitációs Osztály 2005-től részlegvezető helyettes. 2007-től adjunktus",
+        "OPNI (OORI), Tündérhegyi Pszichoszomatikus és Pszichoterápiás Rehabilitációs Osztály 2005-től részlegvezető helyettes. 2007-től adjunktus",
     },
     {
       period: "2009 - 2010",
