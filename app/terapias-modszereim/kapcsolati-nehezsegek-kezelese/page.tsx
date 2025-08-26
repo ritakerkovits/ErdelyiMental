@@ -43,7 +43,8 @@ export default function KapcsolatiNehezségekPage() {
               >
                 {/* Quote - Left aligned within its container */}
                   <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed">
-                    <p>"Mozdul a fű. Szél vagy zápor talán</p>
+                    <p>"A gyepet nézem, talán a gyepet. </p>
+                    <p className="ml-1">Mozdul a fű. Szél vagy zápor talán</p>
                     <p className="ml-1">Vagy egyszerűen az, hogy létezel</p>
                     <p className="ml-1">Mozdítja meg itt és most a világot."</p>
                   </blockquote>

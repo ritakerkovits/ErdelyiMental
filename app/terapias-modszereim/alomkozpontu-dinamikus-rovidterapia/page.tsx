@@ -49,7 +49,9 @@ export default function AlomkozpontuTerapiaPage() {
                 </blockquote>
                 <figcaption className="text-left">
                   <cite className="text-dark-grey text-xs md:text-sm italic font-medium">
-                    /Kosztolányi Dezső: Plató olvasása közben/
+                    <p>/Kosztolányi Dezső:</p>
+                    <p>Plató olvasása közben/</p>
+                  
                   </cite>
                 </figcaption>
               </AnimatedElement>
@@ -100,7 +102,7 @@ export default function AlomkozpontuTerapiaPage() {
               <AnimatedElement
                 animation="slideLeft"
                 delay={400}
-                className="flex justify-center lg:justify-end -mt-8"
+                className="flex justify-center lg:justify-end -mt-6"
               >
                 <figure className="w-full max-w-md">
                   <img

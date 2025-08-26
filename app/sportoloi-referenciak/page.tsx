@@ -191,7 +191,7 @@ export default function ReferenciakPage() {
           {/* Header */}
           <AnimatedElement animation="fadeUp" delay={0}>
             <header className="text-center mb-12">
-              <h1 className="text-xl lg:text-title-32 font-medium text-dark-font">
+              <h1 className="text-2xl md:text-3xl font-medium text-dark-font">
                 Sportolói referenciák az OSEI keretében végzett
                 <br />
                 szakmai tevékenységemről

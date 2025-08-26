@@ -63,9 +63,9 @@ export default function AlomelemzésPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             {/* Grid layout with image positioned top right */}
-            <div className="grid lg:grid-cols-[3fr_1.5fr] gap-1 items-start">
+            <div className="grid lg:grid-cols-[3fr_1.5fr] items-start">
               {/* Left column - Text content */}
-              <div className="space-y-2">
+              <div>
                 <AnimatedElement animation="fadeUp" delay={300}>
                 <p className="text-dark-font leading-relaxed mb-2">
                   Kétfajta gondolkodásra vagyunk képesek. Az egyik az éber tudati racionális gondolkodás, amely képes az
@@ -84,8 +84,9 @@ export default function AlomelemzésPage() {
 
 
                 <p className="text-dark-font leading-relaxed">
-                  „Elmerülési" állapotnak szoktuk nevezni azt a folyamatot, amelyben a figyelmet belső képekre irányítva
-                  elmélyülünk az imaginációban és az úgynevezett éber álom  
+                  „Elmerülési" állapotnak nevezzük azt a folyamatot, amelyben a figyelmet belső képekre irányítva
+                  elmélyülünk az imaginációban és az úgynevezett éber álom folyamatokban.
+                  Maga az imagináció az imago „=" belső kép jelentéséből ered. 
                 </p>
                 </AnimatedElement>
               </div>
@@ -98,7 +99,7 @@ export default function AlomelemzésPage() {
                 className="lg:col-span-1"
                 
               >
-                <figure className="lg:max-w-[500px] lg:w-[500px] lg:-mt-6 lg:pl-8 w-full">
+                <figure className="lg:max-w-[500px] lg:w-[500px] lg:-mr-4 lg:-mt-4 lg:pl-8 w-full">
                   <img
                     src="/images/imaginacio.jpg"
                     alt="Imagináció művészeti ábrázolás - fekete-fehér vázlat álomszerű tájjal, folyó vonalakkal és organikus formákkal, a belső képek világának szimbóluma"
@@ -117,8 +118,8 @@ export default function AlomelemzésPage() {
             {/* Full width content below the grid */}
             <div className="space-y-2">
               <AnimatedElement animation="fadeUp" delay={500}>
-              <p className="text-dark-font leading-relaxed mb-2 -mt-2">
-                folyamatokban. Maga az imagináció az imago „=" belső kép jelentéséből ered. 
+              <p className="text-dark-font leading-relaxed mb-2">
+                
                 Tudományosan kidolgozott módszerek állnak a rendelkezésünkre olyan
                 képek sorozatából, amelyek lelki életünkre megnyugtatólag, gyógyítólag hatnak és amelyek megidézésével
                 tudatunk mélyén jelentős változásokat tudunk elindítani.

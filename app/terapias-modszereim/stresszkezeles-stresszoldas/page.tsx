@@ -76,7 +76,7 @@ export default function StresszkezelésPage() {
               </p>
               </AnimatedElement>
               
-              <div className="relative grid lg:grid-cols-2">
+              <div className="relative grid lg:grid-cols-2 lg:space-x-10">
                 
                 <div className="lg:col-span-1">
                   <AnimatedElement animation="fadeUp" delay={400}>
@@ -105,7 +105,7 @@ export default function StresszkezelésPage() {
                 delay={400}
                 className="lg:col-span-1"
                 >
-                  <figure className=" ml-2 mb-4 lg:max-w-full lg:-mt-6">
+                  <figure className="ml-2 mb-4 lg:max-w-full lg:-mt-6">
                     <img
                       src="/images/stresszkezeles.jpg"
                       alt="Stresszkezelés művészeti ábrázolás - fekete-fehér rajz viharos környezetben lévő figurákkal, a stressz és megküzdés szimbóluma"

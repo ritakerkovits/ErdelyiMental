@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Üdvözlöm! Dr. Erdélyi Kálmán vagyok, pszichiáter és pszichoterapeuta. Budapesti magánrendelésemen segítek többek között szorongás, depresszió, életvezetési és más lelki problémák kezelésében.",
   keywords:
-    "pszichiáter, pszichoterapeuta, pszichoterápia, mentális egészség, szorongás, depresszió, sportpszichológia, Budapest",
+    "pszichiáter, pszichoterapeuta, pszichoterápia, mentális segítségnyújtás, szorongás, depresszió, teljesítményszorongás, mentális felkészítés, verseny előtti tanácsadás sportpszichológia, sportpszichiátria, Budapest",
   viewport: "width=device-width, initial-scale=1",
   /*alternates: {
     canonical: "https://www.erdelyimental.hu",

@@ -49,8 +49,8 @@ export default function CsoportterapiaPage() {
                   </blockquote>
                 <figcaption className="text-right">
                   <cite className="text-dark-grey text-xs md:text-sm italic font-medium">
-                    /Weöres Sándor: Ki minek gondol, <br />
-                    az vagyok annak.../
+                    <p>/Weöres Sándor: Ki minek gondol,</p>
+                    <p>az vagyok annak.../</p>
                   </cite>
                 </figcaption>
               </AnimatedElement>
