@@ -3,7 +3,32 @@
 import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, X } from "lucide-react"
+
+const AnimatedHamburger = ({ isOpen }: { isOpen: boolean }) => {
+  return (
+    <div className="w-6 h-6 flex flex-col justify-center items-center relative">
+      {/* Top line */}
+      <div
+        className={`w-6 h-0.5 bg-white absolute transition-all duration-300 ease-in-out ${
+          isOpen ? "rotate-45 translate-y-0" : "rotate-0 -translate-y-2"
+        }`}
+      />
+      {/* Middle line */}
+      <div
+        className={`w-6 h-0.5 bg-white absolute transition-all duration-300 ease-in-out ${
+          isOpen ? "opacity-0 scale-0" : "opacity-100 scale-100"
+        }`}
+      />
+      {/* Bottom line */}
+      <div
+        className={`w-6 h-0.5 bg-white absolute transition-all duration-300 ease-in-out ${
+          isOpen ? "-rotate-45 translate-y-0" : "rotate-0 translate-y-2"
+        }`}
+      />
+    </div>
+  )
+}
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -26,7 +51,8 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-dark-blue shadow-sm sticky top-0 z-50">
+    <header className="bg-dark-blue backdrop-blur-sm shadow-sm sticky top-0 z-50 border-b border-white/10"
+    >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           {/* Logo and Name */}
@@ -51,7 +77,7 @@ const Header = () => {
                     key={item.href}
                     href={item.href}
                     className="bg-light-blue text-dark-font px-4 py-2 rounded font-medium md:text-sm hover:bg-light-blue/90 transition-colors duration-200"
-                    style={{ borderRadius: "4px" }}
+                    
                   >
                     {item.label}
                   </Link>
@@ -81,17 +107,17 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2 text-white"
+            className="lg:hidden p-2 text-white hover:bg-white/10 rounded transition-colors duration-200"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            <AnimatedHamburger isOpen={isMenuOpen} />
           </button>
         </div>
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="lg:hidden pb-4">
+          <nav className="lg:hidden pb-4 ">
             <div className="flex flex-col space-y-2">
               {navigationItems.map((item) => {
                 const active = isActive(item.href)
