@@ -7,14 +7,14 @@ const HeroSection = () => {
       <div className="container mx-auto px-4">
         {/* Constrained max-width to match other sections */}
         <div className="max-w-6xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="grid lg:grid-cols-2 xl:gap-12 items-start">
             {/* Left Side Content */}
             <div className="space-y-8">
               {/* Title and Subtitle */}
               <AnimatedElement animation="fadeUp" delay={0}>
-              <div>
-                <h1 className="text-[22px] md:text-4xl text-dark-font font-medium leading-tight mb-1 lg:w-full lg:max-w-[900px]">Pszichoterápiás magánrendelés</h1>
-                <h2 className="text-xl md:text-3xl text-dark-font font-medium leading-tight w-full max-w-[800px]">
+              <div className="lg:w-[700px]">
+                <h1 className="text-[22px] md:text-4xl text-dark-font font-medium leading-tight mb-1 lg:w-full">Pszichoterápiás magánrendelés</h1>
+                <h2 className="text-xl md:text-3xl text-dark-font font-medium leading-tight w-full md:max-w-[800px]">
                   Mentális segítségnyújtás sportolók és élsportolók számára
                 </h2>
               </div>
@@ -41,7 +41,7 @@ const HeroSection = () => {
                 <img
                   src="/images/step3.png"
                   alt="Terápiás lépések: Ismerd meg Önmagad, Fogadd el Önmagad, Barátkozz meg Önmagaddal, Légy fontos Önmagadnak, Nyújts biztonságot Önmagadnak, Vezesd Önmagad"
-                  className="w-full max-w-lg mx-auto"
+                  className="w-full max-w-md xl:max-w-lg mx-auto"
                 />
               </div>
               </AnimatedElement>

@@ -60,7 +60,7 @@ export default function KapcsolatPage() {
                 >
                   <div className="flex items-center mb-4">
                     <Phone className="text-gray-700 mr-2 flex-shrink-0" size={18} />
-                    <address className="not-italic text-xl font-semibold text-gray-700">
+                    <address className="not-italic text-lg lg:text-xl font-semibold text-gray-700">
                     <a
                     href="tel:+36304006490"
                     aria-label="Hívás indítása: +36 30 400 6490"
@@ -88,7 +88,7 @@ export default function KapcsolatPage() {
                 >
                   <div className="flex items-center mb-4">
                     <MapPin className="text-gray-700 mr-2 flex-shrink-0" size={18} />
-                    <address className="not-italic text-xl font-semibold text-gray-700">
+                    <address className="not-italic text-lg lg:text-xl font-semibold text-gray-700">
                     <a
                     href="https://maps.google.com/maps?q=1026+Budapest,+Gyergyó+u.+8"
                     target="_blank"
@@ -117,7 +117,7 @@ export default function KapcsolatPage() {
                 >
                   <div className="flex items-center mb-4">
                     <Calendar className="text-gray-700 mr-2 flex-shrink-0" size={18} />
-                    <h2 className="text-xl font-semibold text-gray-700">
+                    <h2 className="text-lg lg:text-xl font-semibold text-gray-700">
                       Rendelési idő
                     </h2>
                   </div>

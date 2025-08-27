@@ -50,6 +50,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="hu">
+      <head>
+        {/* Prevent browser forced dark mode */}
+        <meta name="color-scheme" content="light" />
+        {/* You can add other global meta tags here */}
+      </head>
       <body className={inter.className}>
         <Header />
         <main role="main" id="main-content" className="animate-gpu">
