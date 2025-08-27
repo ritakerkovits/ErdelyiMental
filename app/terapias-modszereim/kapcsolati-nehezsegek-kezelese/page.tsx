@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Párkapcsolati tanácsadás és terápia a konfliktusok kezelésére, kommunikáció javítására és érzelmi közeledés elősegítésére a tartós harmónia érdekében.",
   alternates: {
-    canonical: "/terapias-modszereim/kapcsolati-nehezsegek-kezelese",
+    canonical: "https://www.erdelyimental.hu/terapias-modszereim/kapcsolati-nehezsegek-kezelese",
   },
   openGraph: {
     title: "Párkapcsolati nehézségek rendezése - Dr. Erdélyi Kálmán",

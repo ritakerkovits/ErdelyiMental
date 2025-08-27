@@ -58,7 +58,7 @@ const testimonials = [
     shortText:
       '"A zöldfülű álmodozó már felnőtt szárnyait bontogatja, de nem akárhogyan. Sok-sok akadályt leküzdve juthattam el a jelenlegi csúcsra, de ez idő alatt a személyiségem és a fizikumom is hatalmas lépésekben haladt felfelé. Megszűnni nem akaró, a már-már telhetetlenségre hajazó győzni akarást kellett az oldalunkra állítani..."',
     fullText:
-      '"A zöldfülű álmodozó már felnőtt szárnyait bontogatja, de nem akárhogyan. Sok-sok akadályt leküzdve juthattam el a jelenlegi csúcsra, de ez idő alatt a személyiségem és a fizikumom is hatalmas lépésekben haladt felfelé. Megszűnni nem akaró, a már-már telhetetlenségre hajazó győzni akarást kellett az oldalunkra állítani. Az út meglehetősen kanyargós volt, de Doktor Úrral, aki 2021 nyara óta foglalkozik velem, sikeresen kiiktattuk azokat a bökdöső gátokat, amelyek leküzdése végül erősebbé tett. Mindenekelőtt a szorongás, a sérülés és a megfelelési kényszer drasztikus tüneteit kellett megcéloznunk, és most már a teljesítmény tökéletesítésére és a célok felé menetelésre fókuszálunk. A lélektani munka hatására lényegesen összeszedettebbnek érzem magam, a stresszhelyzeteket már tudom kezelni és egészséges önbizalommal várom a tétversenyeket, előre felkészülve azok minden rezdülésére. Elért eredményeim is igazolják, hogy jó úton haladunk. A mentális felkészülés felső határait sose lehet megsimogatni, úgy érzem, mindig van min csiszolnunk, hogy a NAGY napon a legélesebb lehessek."',
+      '"A zöldfülű álmodozó már felnőtt szárnyait bontogatja, de nem akárhogyan. Sok-sok akadályt leküzdve juthattam el a jelenlegi csúcsra, de ez idő alatt a személyiségem és a fizikumom is hatalmas lépésekben haladt felfelé. Megszűnni nem akaró, a már-már telhetetlenségre hajazó győzni akarást kellett az oldalunkra állítani. Az út meglehetősen kanyargós volt, de Doktor Úrral, aki 2021 nyara óta foglalkozik velem, sikeresen kiiktattuk azokat a bökdöső gátakat, amelyek leküzdése végül erősebbé tett. Mindenekelőtt a szorongás, a sérülés és a megfelelési kényszer drasztikus tüneteit kellett megcéloznunk, és most már a teljesítmény tökéletesítésére és a célok felé menetelésre fókuszálunk. A lélektani munka hatására lényegesen összeszedettebbnek érzem magam, a stresszhelyzeteket már tudom kezelni és egészséges önbizalommal várom a tétversenyeket, előre felkészülve azok minden rezdülésére. Elért eredményeim is igazolják, hogy jó úton haladunk. A mentális felkészülés felső határait sose lehet megsimogatni, úgy érzem, mindig van min csiszolnunk, hogy a NAGY napon a legélesebb lehessek."',
   },
   {
     id: 4,
@@ -108,7 +108,7 @@ const testimonials = [
     title: "Felnőtt női válogatott tagja (szertorna)",
     image: "/images/peter-sara.jpeg",
     achievements: [
-      "Európa játékok ugrás bronzérmes",
+      "Európa Játékok ugrás bronzérmes",
       "Európa Bajnoki 7. (2019) és 8. (2024) helyezés (ugrás)",
       "2x Mesterfokú bajnok (2024 talaj, ugrás)",
     ],
@@ -142,7 +142,7 @@ const testimonials = [
       "Ifjúsági Olimpia 2018, 400m gát, 2. hely",
       "3x Felnőtt Magyar bajnok 2021,2022,2023; 400m és 800m síkfutás",
       "Felnőtt Európa-bajnokság 2022, 800m síkfutás 10. hely",
-      "20 2019 és U23 2023, Európa-bajnokság 6. hely",
+      "U20 2019 és U23 2023, Európa-bajnokság 6. hely",
       "U23 Országos csúcstartó 2022, 800m síkfutás 1:45.53",
     ],
     shortText:

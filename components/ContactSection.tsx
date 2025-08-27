@@ -32,10 +32,16 @@ const ContactSection = () => {
               <AnimatedElement animation="slideRight" delay={300}>
               <div className="bg-light-blue p-6 rounded-md shadow-md">
                 <div className="flex items-center mb-4">
-                  <Phone className="text-dark-font mr-3 flex-shrink-0" size={18} />
-                  <h3 className="text-sm font-semibold" style={{ fontSize: "20px", color: "#4B5563" }}>
+                  <Phone className="text-gray-700 mr-2 flex-shrink-0" size={18} />
+                  <address className="not-italic text-xl font-semibold text-gray-700">
+                    <a
+                    href="tel:+36304006490"
+                    aria-label="Hívás indítása: +36 30 400 6490"
+                    className="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-dark-blue"
+                  >
                     +36 30 400 6490
-                  </h3>
+                  </a>
+                  </address>
                 </div>
                 <p className="text-dark-font leading-relaxed">
                   Időpontot egyeztethet hétköznapokon
@@ -49,10 +55,19 @@ const ContactSection = () => {
               <AnimatedElement animation="slideRight" delay={450}>
               <div className="bg-light-blue p-6 rounded-md shadow-md">
                 <div className="flex items-center mb-4">
-                  <MapPin className="text-dark-font mr-3 flex-shrink-0" size={18} />
-                  <h3 className="text-sm font-semibold" style={{ fontSize: "20px", color: "#4B5563" }}>
+                  <MapPin className="text-gray-700 mr-2 flex-shrink-0" size={18} />
+                  <address className="not-italic text-xl font-semibold text-gray-700">
+                    <a
+                    href="https://maps.google.com/maps?q=1026+Budapest,+Gyergyó+u.+8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Megnyitás térképen: 1026 Budapest, Gyergyó u. 8 Fsz. 3"
+                    className="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-dark-blue"
+                  >
                     1026 Budapest, Gyergyó u. 8 Fsz. 3
-                  </h3>
+                  </a>
+                  </address>
+
                 </div>
                 <p className="text-dark-font leading-relaxed">
                   Személygépkocsival és tömegközlekedési eszközzel
@@ -66,8 +81,8 @@ const ContactSection = () => {
               <AnimatedElement animation="slideRight" delay={600}>
               <div className="bg-light-blue p-6 rounded-md shadow-md">
                 <div className="flex items-center mb-4">
-                  <Calendar className="text-dark-font mr-3 flex-shrink-0" size={18} />
-                  <h3 className="text-sm font-semibold" style={{ fontSize: "20px", color: "#4B5563" }}>
+                  <Calendar className="text-gray-700 mr-2 flex-shrink-0" size={18} />
+                  <h3 className="text-xl font-semibold text-gray-700">
                     Rendelési idő
                   </h3>
                 </div>

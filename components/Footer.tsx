@@ -12,9 +12,27 @@ const Footer = () => {
               <h3 className="text-xl font-medium mb-4" style={{ color: "#F8F8F8", fontSize: "20px" }}>
                 Elérhetőség
               </h3>
-              <address className="not-italic space-y-2" style={{ color: "#CCCED3", fontSize: "16px" }}>
-                <p>+36 30 400 6490</p>
-                <p>1026 Budapest, Gyergyó u. 8 Fsz. 3</p>
+              <address className="not-italic space-y-2 text-light-font/80 text-base" style={{ color: "#CCCED3", fontSize: "16px" }}>
+                <p>
+                  <a
+                    href="tel:+36304006490"
+                    aria-label="Hívás indítása: +36 30 400 6490"
+                    className="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-dark-blue"
+                  >
+                    +36 30 400 6490
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://maps.google.com/maps?q=1026+Budapest,+Gyergyó+u.+8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Megnyitás térképen: 1026 Budapest, Gyergyó u. 8 Fsz. 3"
+                    className="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-dark-blue"
+                  >
+                    1026 Budapest, Gyergyó u. 8 Fsz. 3
+                  </a>
+                </p>
               </address>
             </div>
 
@@ -23,7 +41,7 @@ const Footer = () => {
               <h3 className="text-xl font-medium mb-4" style={{ color: "#F8F8F8", fontSize: "20px" }}>
                 Rendelési idő
               </h3>
-              <ul className="space-y-2" style={{ color: "#CCCED3", fontSize: "16px" }}>
+              <ul className="space-y-2 text-light-font/80 text-base">
                 <li>Hétfő: 17:00 - 20:00</li>
                 <li>Szerda: 08:00 - 11:00</li>
                 <li>Csütörtök: 16:00 - 20:00</li>
@@ -36,11 +54,11 @@ const Footer = () => {
                 Linkek
               </h3>
               <nav>
-                <ul className="space-y-2" style={{ color: "#CCCED3", fontSize: "16px" }}>
+                <ul className="space-y-2 text-light-font/80 text-base">
                   <li>
                     <Link
                       href="/bemutatkozas"
-                      className="hover:text-white transition-colors duration-200 focus:text-white focus:outline-none focus:underline"
+                      className="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-dark-blue"
                     >
                       Bemutatkozás
                     </Link>
@@ -48,15 +66,15 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/terapias-modszereim"
-                      className="hover:text-white transition-colors duration-200 focus:text-white focus:outline-none focus:underline"
+                      className="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-dark-blue"
                     >
-                      Terápiás Módszereim
+                      Terápiás módszereim
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="/kapcsolat"
-                      className="hover:text-white transition-colors duration-200 focus:text-white focus:outline-none focus:underline"
+                      className="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-dark-blue"
                     >
                       Kapcsolat felvétel
                     </Link>
@@ -71,7 +89,7 @@ const Footer = () => {
           <div className="border-t mb-6 w-full" style={{ borderColor: "#C4C8CD" }}></div>
 
           {/* Copyright */}
-          <div className="text-center" style={{ color: "#CCCED3", fontSize: "16px" }}>
+          <div className="text-center text-base text-gray-300">
             <p>© 2025 Dr. Erdélyi Kálmán. Minden jog fenntartva.</p>
           </div>
           </div>

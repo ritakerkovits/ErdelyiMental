@@ -123,7 +123,7 @@ export default function AlomelemzésPage() {
                 Tudományosan kidolgozott módszerek állnak a rendelkezésünkre olyan
                 képek sorozatából, amelyek lelki életünkre megnyugtatólag, gyógyítólag hatnak és amelyek megidézésével
                 tudatunk mélyén jelentős változásokat tudunk elindítani.
-                A lelki élet spontán imaginatív természke az álom, amely képekben beszéli el mindazt, amit szavakban nem
+                A lelki élet spontán imaginatív természete az álom, amely képekben beszéli el mindazt, amit szavakban nem
                 tudunk közölni. Tudattalan világunkhoz vezető „királyi út" (álom) megfejtése az álomelemzés, melyről a
                 későbbiekben még szólok (lsd. Kiemelt szakterület).
               </p>

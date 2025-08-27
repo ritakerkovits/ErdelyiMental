@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Sportpszichiátria és mentális segítségnyújtás sportolóknak, élsportolóknak: teljesítményszorongás csökkentés, stresszkezelés, mentális felkészítés versenyekre.",
   alternates: {
-    canonical: "/terapias-modszereim/sportpszichiatria-sportolok-mentalis-segitseg",
+    canonical: "https://www.erdelyimental.hu/terapias-modszereim/sportpszichiatria-sportolok-mentalis-segitseg",
   },
   openGraph: {
     title: "Sportpszichiátria - Dr. Erdélyi Kálmán",

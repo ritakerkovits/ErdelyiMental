@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: "/sportoloi-referenciak",
   },
   openGraph: {
-    title: "Referenciák – Dr. Erdélyi Kálmán",
+    title: "Referenciák - Dr. Erdélyi Kálmán",
     description:
       "Sportolói referenciák és visszajelzések mentális felkészítésről és pszichoterápiáról. Olimpiai és világbajnok sportolók tapasztalatai első kézből.",
     //url: "https://www.erdelyimental.hu/sportoloi-referenciak",

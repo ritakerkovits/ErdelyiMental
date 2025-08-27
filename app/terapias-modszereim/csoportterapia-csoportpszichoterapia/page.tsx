@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "A csoportterápia és csoportpszichoterápia a közösség erejével segít lelki problémák feldolgozásában, önismeret fejlesztésében és gyógyulásban.",
   alternates: {
-    canonical: "/terapias-modszereim/csoportterapia-csoportpszichoterapia",
+    canonical: "https://www.erdelyimental.hu/terapias-modszereim/csoportterapia-csoportpszichoterapia",
   },
   openGraph: {
     title: "Csoportterápia - Csoportpszichoterápia - Dr. Erdélyi Kálmán",

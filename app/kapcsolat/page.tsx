@@ -8,10 +8,10 @@ export const metadata: Metadata = {
   description:
     "Vegye fel velem a kapcsolatot! A rendelési időimről és elérhetőségeimről az oldalon tájékozódhat.",
   alternates: {
-    canonical: "/kapcsolat",
+    canonical: "https://www.erdelyimental.hu/kapcsolat",
   },
   openGraph: {
-    title: "Kapcsolat – Dr. Erdélyi Kálmán",
+    title: "Kapcsolat - Dr. Erdélyi Kálmán",
     description:
       "Vegye fel velem a kapcsolatot! A rendelési időimről és elérhetőségeimről az oldalon tájékozódhat.",
     //url: "https://www.erdelyimental.hu/kapcsolat",
@@ -59,10 +59,16 @@ export default function KapcsolatPage() {
                         aria-labelledby="phone-heading"
                 >
                   <div className="flex items-center mb-4">
-                    <Phone className="text-dark-font mr-3 flex-shrink-0" size={18} />
-                    <h2 className="text-xl font-semibold" style={{ fontSize: "20px", color: "#4B5563" }}>
-                      +36 30 400 6490
-                    </h2>
+                    <Phone className="text-gray-700 mr-2 flex-shrink-0" size={18} />
+                    <address className="not-italic text-xl font-semibold text-gray-700">
+                    <a
+                    href="tel:+36304006490"
+                    aria-label="Hívás indítása: +36 30 400 6490"
+                    className="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-dark-blue"
+                    >
+                    +36 30 400 6490
+                  </a>
+                  </address>
                   </div>
                   <p className="text-dark-font leading-relaxed">
                     Időpontot egyeztethet hétköznapokon
@@ -78,13 +84,21 @@ export default function KapcsolatPage() {
                         delay={450}
                         className="bg-white p-6 rounded-lg shadow-sm"
                         as="article"
-                        aria-labelledby="address-heading"
+                        
                 >
                   <div className="flex items-center mb-4">
-                    <MapPin className="text-dark-font mr-3 flex-shrink-0" size={18} />
-                    <h2 className="text-xl font-semibold" style={{ fontSize: "20px", color: "#4B5563" }}>
-                      1026 Budapest, Gyergyó u. 8 Fsz. 3
-                    </h2>
+                    <MapPin className="text-gray-700 mr-2 flex-shrink-0" size={18} />
+                    <address className="not-italic text-xl font-semibold text-gray-700">
+                    <a
+                    href="https://maps.google.com/maps?q=1026+Budapest,+Gyergyó+u.+8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Megnyitás térképen: 1026 Budapest, Gyergyó u. 8 Fsz. 3"
+                    className="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-dark-blue"
+                    >
+                    1026 Budapest, Gyergyó u. 8 Fsz. 3
+                  </a>
+                  </address>
                   </div>
                   <p className="text-dark-font leading-relaxed">
                     Személygépkocsival és tömegközlekedési eszközzel
@@ -102,8 +116,8 @@ export default function KapcsolatPage() {
                         aria-labelledby="hours-heading"
                 >
                   <div className="flex items-center mb-4">
-                    <Calendar className="text-dark-font mr-3 flex-shrink-0" size={18} />
-                    <h2 className="text-xl font-semibold" style={{ fontSize: "20px", color: "#4B5563" }}>
+                    <Calendar className="text-gray-700 mr-2 flex-shrink-0" size={18} />
+                    <h2 className="text-xl font-semibold text-gray-700">
                       Rendelési idő
                     </h2>
                   </div>

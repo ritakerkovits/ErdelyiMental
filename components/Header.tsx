@@ -76,7 +76,9 @@ const Header = () => {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className="bg-light-blue text-dark-font px-4 py-2 rounded font-medium md:text-sm hover:bg-light-blue/90 transition-colors duration-200"
+                    className={`px-4 py-2 rounded font-medium md:text-sm transition-colors duration-200
+                    ${active ? "bg-peach text-dark-font" : "bg-light-blue text-dark-font hover:bg-light-peach"}
+                  `}
                     
                   >
                     {item.label}
@@ -127,7 +129,9 @@ const Header = () => {
                     <Link
                       key={item.href}
                       href={item.href}
-                      className="bg-light-blue text-dark-font py-3 px-4 rounded font-medium hover:bg-light-blue/90 transition-colors duration-200 text-center"
+                      className={`bg-light-blue text-gray-900 py-3 px-4 rounded font-medium hover:bg-light-blue/90 transition-colors duration-200 text-center
+                      ${active ? "bg-peach text-dark-font" : "bg-light-blue text-dark-font hover:bg-light-peach"}
+                      `}
                       onClick={() => setIsMenuOpen(false)}
                       style={{ borderRadius: "4px" }}
                     >

@@ -15,9 +15,9 @@ export const metadata: Metadata = {
   keywords:
     "pszichiáter, pszichoterapeuta, pszichoterápia, mentális segítségnyújtás, szorongás, depresszió, teljesítményszorongás, mentális felkészítés, verseny előtti tanácsadás sportpszichológia, sportpszichiátria, Budapest",
   viewport: "width=device-width, initial-scale=1",
-  /*alternates: {
+  alternates: {
     canonical: "https://www.erdelyimental.hu",
-  },*/
+  },
   icons: {
     icon: [
       {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Ismerje meg szakmai tapasztalataimat, végzettségeimet és terápiás megközelítésemet.",
   alternates: {
-    canonical: "/bemutatkozas",
+    canonical: "https://www.erdelyimental.hu/bemutatkozas",
   },
   openGraph: {
     title: "Bemutatkozás – Dr. Erdélyi Kálmán",
