@@ -121,7 +121,7 @@ export default function SzorongasoldásPage() {
               
 
               <p className="text-dark-font leading-relaxed">
-                Hasznos, ha együtt alkalmazzuk az testi lazítást az okok lelki feltárásával.
+                Hasznos, ha együtt alkalmazzuk a testi lazítást az okok lelki feltárásával.
               </p>
               </AnimatedElement>
             </div>

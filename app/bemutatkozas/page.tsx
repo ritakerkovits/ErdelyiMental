@@ -87,7 +87,7 @@ export default function BemutatkozasPage() {
                 delay={200}
                 className="lg:col-span-1 order-2 lg:order-1 flex justify-center lg:justify-start"
               >              
-                <figure className="text-center my-3 lg:w-[320px] lg:min-w-[320px] -ml-6">
+                <figure className="text-center my-3 lg:w-[320px] lg:min-w-[300px] lg:-ml-8 xl:-ml-2">
                   <img
                     src="/images/bemutatkozas-portrait.png"
                     alt="Dr. Erdélyi Kálmán bemutatkozás portré - pszichiáter és pszichoterapeuta professzionális képe"
@@ -99,7 +99,7 @@ export default function BemutatkozasPage() {
                     }}
                     loading="lazy"
                   />
-                  <figcaption className="text-center">
+                  <figcaption className="text-center lg:-ml-4 xl:-ml-0">
                     <h3 className="text-xl font-semibold text-dark-blue">Dr. Erdélyi Kálmán</h3>
                     <p className= "text-dark-grey text-sm">Pszichiáter</p>
                     <p className="text-dark-grey text-sm">Pszichoterapeuta</p>

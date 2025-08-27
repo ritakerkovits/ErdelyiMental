@@ -45,7 +45,7 @@ export default function CsoportterapiaPage() {
                     <p>"Szemem távában magadat látod:</p>
                     <p className="ml-1">Mint tükröd, vagyok leghűbb barátod.</p>
                     <p className="ml-1">Mint tükröd, vagyok leghűbb barátod:</p>
-                    <p className="ml-1">Szemem távában magadat látod"</p>
+                    <p className="ml-1">Szemem tavában magadat látod"</p>
                   </blockquote>
                 <figcaption className="text-right">
                   <cite className="text-dark-grey text-xs md:text-sm italic font-medium">
