@@ -15,9 +15,17 @@ export const metadata: Metadata = {
     title: "Bemutatkozás – Dr. Erdélyi Kálmán",
     description:
       "Ismerje meg szakmai tapasztalataimat, végzettségeimet és terápiás megközelítésemet.",
-    //url: "https://www.erdelyimental.hu/bemutatkozas",
+    url: "https://www.erdelyimental.hu/bemutatkozas",
     siteName: "Dr. Erdélyi Kálmán",
     locale: "hu_HU",
+    images: [
+      {
+        url: "https://www.erdelyimental.hu/images/og-logo.jpg", // relative to /public or absolute URL
+        width: 1200, // recommended for social previews
+        height: 630,
+        alt: "Dr. Erdélyi Kálmán logo",
+      },
+    ],
   },
 }
 
