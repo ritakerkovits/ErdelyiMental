@@ -25,7 +25,7 @@ export default function PszichiátriaKezelésPage() {
     <div className="min-h-screen">
       {/* Header Section */}
       <section className="bg-light-blue py-10">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 pt-16 lg:pt-20">
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-[5fr_2fr] gap-12 items-start">
               {/* Left Side - Title */}

@@ -9,7 +9,7 @@ const ContactSection = () => {
           {/* Header Section */}
           <div className="text-center mb-12">
             <AnimatedElement animation="fadeUp" delay={0}>
-            <h2 className="text-3xl font-medium text-dark-font mb-6">Kapcsolat</h2>
+            <h2 className="text-2xl md:text-3xl font-medium text-dark-font mb-6">Kapcsolat</h2>
             </AnimatedElement>
             <div className="max-w-2xl mx-auto space-y-2">
               <AnimatedElement animation="fadeUp" delay={100}>

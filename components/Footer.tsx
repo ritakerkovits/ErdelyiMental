@@ -76,7 +76,7 @@ const Footer = () => {
                       href="/kapcsolat"
                       className="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-dark-blue"
                     >
-                      Kapcsolat felvétel
+                      Kapcsolatfelvétel
                     </Link>
                   </li>
                 </ul>

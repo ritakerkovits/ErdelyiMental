@@ -25,7 +25,7 @@ export default function AlomelemzésPage() {
     <div className="min-h-screen">
       {/* Header Section */}
       <section className="bg-light-blue py-10">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 pt-16 lg:pt-20">
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* Left Side - Title */}
@@ -123,7 +123,7 @@ export default function AlomelemzésPage() {
                 Tudományosan kidolgozott módszerek állnak a rendelkezésünkre olyan
                 képek sorozatából, amelyek lelki életünkre megnyugtatólag, gyógyítólag hatnak és amelyek megidézésével
                 tudatunk mélyén jelentős változásokat tudunk elindítani.
-                A lelki élet spontán imaginatív természete az álom, amely képekben beszéli el mindazt, amit szavakban nem
+                A lelki élet spontán imaginatív terméke az álom, amely képekben beszéli el mindazt, amit szavakban nem
                 tudunk közölni. Tudattalan világunkhoz vezető „királyi út" (álom) megfejtése az álomelemzés, melyről a
                 későbbiekben még szólok (lsd. Kiemelt szakterület).
               </p>

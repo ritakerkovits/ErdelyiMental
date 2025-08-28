@@ -18,14 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.erdelyimental.hu/bemutatkozas",
     siteName: "Dr. Erdélyi Kálmán",
     locale: "hu_HU",
-    images: [
-      {
-        url: "https://www.erdelyimental.hu/images/og-logo.jpg", // relative to /public or absolute URL
-        width: 1200, // recommended for social previews
-        height: 630,
-        alt: "Dr. Erdélyi Kálmán logo",
-      },
-    ],
+
   },
 }
 
@@ -77,7 +70,7 @@ export default function BemutatkozasPage() {
   return (
     <PageWrapper>
     <div className="min-h-screen py-8 bg-peach pb-20">
-      <div className="container max-w-6xl mx-auto px-4">
+      <div className="container max-w-6xl mx-auto px-4 pt-16 lg:pt-20">
         {/* First Block - Introduction */}
         <AnimatedElement animation="fadeUp" delay={0}>
           <div className="bg-white rounded-lg shadow-sm p-4 lg:p-8 mb-8 max-w-6xl mx-auto">

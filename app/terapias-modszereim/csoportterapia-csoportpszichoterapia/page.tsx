@@ -25,7 +25,7 @@ export default function CsoportterapiaPage() {
     <div className="min-h-screen">
       {/* Header Section */}
       <section className="bg-light-blue py-10">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 pt-16 lg:pt-20">
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* Left Side - Title */}
@@ -42,7 +42,7 @@ export default function CsoportterapiaPage() {
                 as="figure"
               >
                   <blockquote className="text-left text-dark-grey text-sm md:text-base italic font-medium leading-relaxed mb-2">
-                    <p>"Szemem távában magadat látod:</p>
+                    <p>"Szemem tavában magadat látod:</p>
                     <p className="ml-1">Mint tükröd, vagyok leghűbb barátod.</p>
                     <p className="ml-1">Mint tükröd, vagyok leghűbb barátod:</p>
                     <p className="ml-1">Szemem tavában magadat látod"</p>

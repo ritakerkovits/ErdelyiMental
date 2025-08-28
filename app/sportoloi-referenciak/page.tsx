@@ -186,7 +186,7 @@ export default function ReferenciakPage() {
   return (
   
     <div className="min-h-screen py-12 bg-peach" >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 pt-16 lg:pt-20">
         <div className="max-w-[1180px] mx-auto">
           {/* Header */}
           <AnimatedElement animation="fadeUp" delay={0}>

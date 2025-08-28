@@ -94,10 +94,10 @@ export default function TerapiasModszereimPage() {
     <div className="min-h-screen">
       {/* Main Therapy Methods Section */}
       <section className="py-16 bg-peach" >
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 pt-16 lg:pt-20">
           <div className="max-w-6xl mx-auto">
             <AnimatedElement animation="fadeUp" delay={0}>
-            <h1 className="text-title-32 font-medium text-dark-font mb-12">Önismereti és terápiás módszereim</h1>
+            <h1 className="text-2xl md:text-3xl font-medium text-dark-font mb-12">Önismereti és terápiás módszereim</h1>
             </AnimatedElement>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {therapyMethods.map((method, index) => {
@@ -223,7 +223,7 @@ export default function TerapiasModszereimPage() {
                     className="lg:pr-8 flex items-center justify-center lg:justify-start text-center lg:text-left"
                     as="header"
                   >
-                <h2 className="text-3xl font-medium text-dark-font leading-tight">
+                <h2 className="text-2xl md:text-3xl font-medium text-dark-font leading-tight">
                   Ismerje meg
                   <br />
                   kiemelt szakterületeimet

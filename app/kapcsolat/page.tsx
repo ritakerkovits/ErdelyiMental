@@ -25,7 +25,7 @@ export default function KapcsolatPage() {
     <PageWrapper>
     <div className="min-h-screen" style={{ backgroundColor: "#EDF0F3" }}>
       <div className="py-12 pb-[140px]">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 pt-16 lg:pt-20">
           <div className="max-w-7xl mx-auto">
             {/* Header Section */}
             <div className="text-center mb-12">

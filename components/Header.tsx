@@ -40,7 +40,7 @@ const Header = () => {
     { href: "/mire-szolgal-a-pszichoterapia", label: "Mire szolgál a pszichoterápia" },
     { href: "/terapias-modszereim", label: "Terápiás módszereim" },
     { href: "/sportoloi-referenciak", label: "Referenciák" },
-    { href: "/kapcsolat", label: "Kapcsolat felvétel", isCTA: true },
+    { href: "/kapcsolat", label: "Kapcsolatfelvétel", isCTA: true },
   ]
 
   const isActive = (href: string) => {
@@ -51,7 +51,7 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-dark-blue backdrop-blur-sm shadow-sm sticky top-0 left-0 w-full z-50 border-b border-white/10"
+    <header className="bg-dark-blue backdrop-blur-sm shadow-sm fixed top-0 left-0 w-full z-50 border-b border-white/10"
     >
       {/*<div className="md:container md:mx-auto lg:w-full xl:container xl:mx-auto px-4 lg:px-6 xl:px-8">*/}
       <div className="container mx-auto px-4 lg:max-w-[95%] xl:max-w-[95%]">

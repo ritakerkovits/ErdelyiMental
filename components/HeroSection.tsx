@@ -3,8 +3,8 @@ import { AnimatedElement } from "@/components/ui/animated-element"
 
 const HeroSection = () => {
   return (
-    <section className="py-8 lg:py-24 bg-peach" >
-      <div className="container mx-auto px-4">
+    <section className="py-8 lg:py-24 bg-peach " >
+      <div className="container mx-auto px-4 pt-20">
         {/* Constrained max-width to match other sections */}
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 xl:gap-12 items-start">
