@@ -74,8 +74,8 @@ export default function MireServesPage() {
                   </p>
                   <p className="text-dark-font leading-relaxed">
                     A lelki problémák nyomásában tehetetlennek érzi magát. Jelen állapotát, de a jövőjét is
-                    kilátástalannak érezheti. Ugye ismerősek ezek a gondolatok: „Nem ismerek önmagamra...Mintha nem én
-                    lennék...Nem tudom mi lesz velem...Tehetetlen vagyok...Kihez forduljak? Ki segíthetne rajtam?"
+                    kilátástalannak érezheti. Ugye ismerősek ezek a gondolatok: „Nem ismerek önmagamra ... Mintha nem én lennék ... Nem tudom mi
+                lesz velem ... Tehetetlen vagyok ... Kihez forduljak? Ki segíthetne rajtam?"
                   </p>
                 </div>
                 </AnimatedElement>

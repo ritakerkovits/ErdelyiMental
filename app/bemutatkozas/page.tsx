@@ -145,7 +145,7 @@ export default function BemutatkozasPage() {
         {/* Second Block - Professional Experience Table */}
         <AnimatedElement animation="fadeUp" delay={500}>
         <div className="bg-white rounded-lg shadow-sm p-6 mb-8 max-w-6xl mx-auto">
-          <h2 className="text-2xl font-semibold text-dark-blue mb-6">Szakmai Tapasztalat</h2>
+          <h2 className="text-2xl font-semibold text-dark-blue mb-6">Szakmai tapasztalat</h2>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse">
               <thead>

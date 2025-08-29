@@ -33,9 +33,9 @@ const testimonials = [
       "Olimpiai Játékok 2024, 4. hely",
       "Felnőtt Világbajnokság 2024, egyéni 2. hely, csapat 1. hely; 2025 váltó 2. hely",
       "Felnőtt Európa-bajnokság 2021, egyéni 2. hely, csapat 1. hely; 2025, egyéni 4. hely, csapat 1. hely, vegyes váltó 1. hely",
-      "Felnőtt Világkupa 2023; 2024, 1.hely; Világkupa Döntő 2025, 3. hely",
-      "Junior Európa-bajnokság 2018; 2019, 2., 3.hely",
-      "Felnőtt Országos Bajnokság 2., 3.hely, 1. hely (2025)",
+      "Felnőtt Világkupa 2023; 2024, 1. hely; Világkupa Döntő 2025, 3. hely",
+      "Junior Európa-bajnokság 2018; 2019, 2., 3. hely",
+      "Felnőtt Országos Bajnokság 2., 3. hely, 1. hely (2025)",
     ],
     shortText:
       '"Kálmánnal 2022 vége óta dolgozunk együtt rendszeresen. Talán jogosan mondhatjuk, hogy a legjobb tempóban érkezett az életembe, hiszen 2023-ban kezdődött az olimpiai kvalifikációs időszak, mely telis-tele volt magasságokkal és mélységekkel..."',
@@ -49,8 +49,8 @@ const testimonials = [
     image: "/images/maramarosi-rita.jpeg",
     achievements: [
       "3x Ifjúsági Európa bajnok (2021, 2022, 2023)",
-      "3x Junior Világbajnok (2023); 2.h.- középtáv, 3.h.-hosszútáv, 3.h.-váltó (2025)",
-      "Világjátékok (Csengtu, Kína 2025): 6.h.- Középtáv, 6. h. - Sprint, 4. h. - Sprintváltó",
+      "3x Junior Világbajnok (2023); 2.h. középtáv, 3.h. hosszútáv, 3.h. váltó (2025)",
+      "Világjátékok (Csengtu, Kína 2025): 6.h. középtáv, 6.h. sprint, 4.h. sprintváltó",
       "2x Felnőtt 6. helyezett váltó tag (2024)",
       "Sokszoros magyar bajnok tájfutó",
       "12x magyar bajnok középtávfutó",
@@ -65,7 +65,9 @@ const testimonials = [
     name: "J. Ivett",
     title: "Szervátültetett világbajnok teniszező",
     image: "/images/j-ivett.jpeg",
-    achievements: [],
+    achievements: [
+      "Szervátültetettek Világjátéka (2023): egyéni 1.h., női páros 3.h., vegyes páros 2.h.; (2025): egyéni 2.h., női páros 2.h., vegyes páros 3.h."
+    ],
     shortText:
       '"2022 óta dolgozunk együtt Kálmánnal. A megtartó, elfogadó terápiás tér nagyon sokat segített a sportolói és sporton kívüli életemben is, többek között hozzájárult ahhoz is, hogy 2023-ban az..."',
     fullText:
@@ -139,8 +141,8 @@ const testimonials = [
     image: "/images/huller-daniel.jpg",
     achievements: [
       "Ifjúsági Európa-bajnokság 2018, 400m gát 1. hely",
-      "Ifjúsági Olimpia 2018, 400m gát, 2. hely",
-      "3x Felnőtt Magyar bajnok 2021,2022,2023; 400m és 800m síkfutás",
+      "Ifjúsági Olimpia 2018, 400m gát 2. hely",
+      "3x Felnőtt Magyar bajnok 2021, 2022, 2023; 400m és 800m síkfutás",
       "Felnőtt Európa-bajnokság 2022, 800m síkfutás 10. hely",
       "U20 2019 és U23 2023, Európa-bajnokság 6. hely",
       "U23 Országos csúcstartó 2022, 800m síkfutás 1:45.53",

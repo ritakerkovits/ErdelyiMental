@@ -132,7 +132,7 @@ export default function AlomelemzésPage() {
               <p className="text-dark-font leading-relaxed mb-2">
                 Az érzelmi élet különböző súlyossági fokú zavaraiban megnyilvánuló neurózisok a belső képekkel,
                 szimbólumokkal végzett munkára igen jól reagálnak. Olyan érzelmi változásokat tudnak előidézni, amelyek
-                nem pusztán a testi tünetek csitulását eredményezik, hanem személetünk és életfilozófiánk kedvező
+                nem pusztán a testi tünetek csitulását eredményezik, hanem szemléletünk és életfilozófiánk kedvező
                 változásában is segítenek.
               </p>
               </AnimatedElement>

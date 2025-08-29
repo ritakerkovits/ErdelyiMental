@@ -22,8 +22,8 @@ const PsychotherapyPurposeSection = () => {
               <AnimatedElement animation="fadeUp" delay={200}>
               <p>
                 A lelki problémák nyomásában tehetetlennek érzi magát. Jelen állapotát, de a jövőjét is kilátástalannak
-                érezheti. Ugye ismerősek ezek a gondolatok: „Nem ismerek önmagamra...Mintha nem én lennék...Nem tudom mi
-                lesz velem...Tehetetlen vagyok...Kihez forduljak? Ki segíthetne rajtam?"
+                érezheti. Ugye ismerősek ezek a gondolatok: „Nem ismerek önmagamra ... Mintha nem én lennék ... Nem tudom mi
+                lesz velem ... Tehetetlen vagyok ... Kihez forduljak? Ki segíthetne rajtam?"
               </p>
               </AnimatedElement>
             </div>

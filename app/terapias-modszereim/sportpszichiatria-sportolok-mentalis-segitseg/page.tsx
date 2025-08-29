@@ -103,30 +103,33 @@ export default function SportpszichiatriaPage() {
                   <AnimatedElement animation="fadeUp" delay={600}>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-dark-blue rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                    Versenyhelyzetben tapasztalt csökkent vagy várakozásnak nem megfelelő teljesítmény. A sportoló edzések
-                    alkalmával és a versenyek pszichés megterhelése alatt elért eredményei jelentősen eltérnek egymástól.
+                    Versenyhelyzetben tapasztalt csökkent vagy várakozásnak nem megfelelő teljesítmény
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-dark-blue rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                    A sportoló edzések alkalmával és a versenyek pszichés megterhelése alatt elért eredményei jelentősen eltérnek egymástól
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-dark-blue rounded-full mr-3 mt-2 flex-shrink-0"></span>
                     Önértékelési és szorongásos problémák, melyek adott esetben a sportoló sporton kívüli szociális
-                    viselkedésére is kihatnak.
+                    viselkedésére is kihatnak
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-dark-blue rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                    Feladat priorizálási kérdések (tanulás / edzés, magánélet / edzés).
+                    Feladat priorizálási kérdések (tanulás / edzés, magánélet / edzés)
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-dark-blue rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                    Jövőkép és célok kialakítása és a reális lehetőségek feltérképezése.
+                    Jövőkép és célok kialakítása és a reális lehetőségek feltérképezése
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-dark-blue rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                    Munkakapcsolat az edzővel és ennek buktatói.
+                    Munkakapcsolat az edzővel és ennek buktatói
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-dark-blue rounded-full mr-3 mt-2 flex-shrink-0"></span>
                     Kommunikációs defektusok, maladaptív rutinok (hiányos / rossz alkalmazkodás, indulatkezelés, énképet
-                    romboló kommunikáció, izoláció).
+                    romboló kommunikáció, izoláció)
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-dark-blue rounded-full mr-3 mt-2 flex-shrink-0"></span>
@@ -146,7 +149,7 @@ export default function SportpszichiatriaPage() {
           <div className="max-w-6xl mx-auto">
             <AnimatedElement animation="fadeUp" delay={700}>
             <h2 className="text-xl font-semibold text-dark-font mb-2">
-              Sportpszichiátriai szolgáltatások, mentális segítségnyújtás:
+              Sportpszichiátriai szolgáltatások, mentális segítségnyújtás
             </h2>
             </AnimatedElement>
             
