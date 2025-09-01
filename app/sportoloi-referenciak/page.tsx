@@ -31,7 +31,7 @@ const testimonials = [
     image: "/images/guzi-blanka.jpeg",
     achievements: [
       "Olimpiai Játékok 2024, 4. hely",
-      "Felnőtt Világbajnokság 2024, egyéni 2. hely, csapat 1. hely; 2025 váltó 2. hely",
+      "Felnőtt Világbajnokság 2024, egyéni 2. hely, csapat 1. hely; 2025, egyéni 2. hely, váltó 2. hely",
       "Felnőtt Európa-bajnokság 2021, egyéni 2. hely, csapat 1. hely; 2025, egyéni 4. hely, csapat 1. hely, vegyes váltó 1. hely",
       "Felnőtt Világkupa 2023; 2024, 1. hely; Világkupa Döntő 2025, 3. hely",
       "Junior Európa-bajnokság 2018; 2019, 2., 3. hely",
