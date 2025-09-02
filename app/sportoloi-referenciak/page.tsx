@@ -33,8 +33,8 @@ const testimonials = [
       "Olimpiai Játékok 2024, 4. hely",
       "Felnőtt Világbajnokság 2024, egyéni 2. hely, csapat 1. hely; 2025, egyéni 2. hely, váltó 2. hely",
       "Felnőtt Európa-bajnokság 2021, egyéni 2. hely, csapat 1. hely; 2025, egyéni 4. hely, csapat 1. hely, vegyes váltó 1. hely",
-      "Felnőtt Világkupa 2023; 2024, 1. hely; Világkupa Döntő 2025, 3. hely",
-      "Junior Európa-bajnokság 2018; 2019, 2., 3. hely",
+      "Felnőtt Világkupa 2023, 1. hely; 2024, 1. hely; Világkupa Döntő 2025, 3. hely",
+      "Junior Európa-bajnokság 2018, 2. hely; 2019, 3. hely",
       "Felnőtt Országos Bajnokság 2., 3. hely, 1. hely (2025)",
     ],
     shortText:
@@ -94,7 +94,7 @@ const testimonials = [
     title: "Padel válogatott",
     image: "/images/andrejszki-dora.jpeg",
     achievements: [
-      "8x magyar bajnok",
+      "10x magyar bajnok",
       "Európa Játékok résztvevő",
       "Év Padelezője Díj nyertese 2022, 2023, 2024",
       "Magyar ranglistavezető",
