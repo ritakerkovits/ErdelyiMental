@@ -8,7 +8,7 @@ import Footer from "@/components/Footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  //metadataBase: new URL("https://www.erdelyimental.hu"),
+  metadataBase: new URL("https://www.erdelyimental.hu"),
   title: "Dr. Erdélyi Kálmán - Pszichiáter és Pszichoterapeuta",
   description:
     "Üdvözlöm! Dr. Erdélyi Kálmán vagyok, pszichiáter és pszichoterapeuta. Budapesti magánrendelésemen segítek többek között szorongás, depresszió, életvezetési és más lelki problémák kezelésében.",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     locale: "hu_HU",
         images: [
       {
-        url: "https://www.erdelyimental.hu/images/og-logo.jpg", // relative to /public or absolute URL
+        url: "/images/og-logo.jpg", // relative to /public or absolute URL
         width: 1200, // recommended for social previews
         height: 630,
         alt: "Dr. Erdélyi Kálmán logo",
