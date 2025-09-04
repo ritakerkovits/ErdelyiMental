@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: "Referenciák - Dr. Erdélyi Kálmán",
     description:
       "Sportolói referenciák és visszajelzések mentális felkészítésről és pszichoterápiáról. Olimpiai és világbajnok sportolók tapasztalatai első kézből.",
-    //url: "https://www.erdelyimental.hu/sportoloi-referenciak",
+    url: "https://www.erdelyimental.hu/sportoloi-referenciak",
     siteName: "Dr. Erdélyi Kálmán",
     locale: "hu_HU",
   },

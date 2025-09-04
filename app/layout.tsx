@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "Dr. Erdélyi Kálmán - Pszichiáter és Pszichoterapeuta",
     description:
       "Üdvözlöm! Dr. Erdélyi Kálmán vagyok, pszichiáter és pszichoterapeuta. Budapesti magánrendelésemen segítek többek között szorongás, depresszió, életvezetési és más lelki problémák kezelésében.",
-    //url: "https://www.erdelyimental.hu",
+    url: "https://www.erdelyimental.hu",
     siteName: "Dr. Erdélyi Kálmán",
     locale: "hu_HU",
         images: [

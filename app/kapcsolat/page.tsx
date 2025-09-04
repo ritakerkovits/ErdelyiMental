@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: "Kapcsolat - Dr. Erdélyi Kálmán",
     description:
       "Vegye fel velem a kapcsolatot! A rendelési időimről és elérhetőségeimről az oldalon tájékozódhat.",
-    //url: "https://www.erdelyimental.hu/kapcsolat",
+    url: "https://www.erdelyimental.hu/kapcsolat",
     siteName: "Dr. Erdélyi Kálmán",
     locale: "hu_HU",
   },
