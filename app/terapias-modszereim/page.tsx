@@ -16,14 +16,7 @@ export const metadata: Metadata = {
     title: "Dr. Erdélyi Kálmán - Pszichiáter és Pszichoterapeuta",
     description:
       "Terápiás módszereim között szerepel az önismeretfejlesztés, életvezetési tanácsadás, kapcsolati nehézségek és szorongásoldás, és további más szakmai szolgáltatások.",
-    images: [
-      {
-        url: "/images/og-logo.jpg", 
-        width: 1200, 
-        height: 630,
-        alt: "Dr. Erdélyi Kálmán logo",
-      },
-    ],
+    images: ["/images/og-logo.jpg"],
   },  
 }
 
