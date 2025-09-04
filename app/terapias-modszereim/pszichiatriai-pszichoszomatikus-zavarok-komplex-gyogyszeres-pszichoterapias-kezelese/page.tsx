@@ -9,14 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.erdelyimental.hu/terapias-modszereim/pszichiatriai-pszichoszomatikus-zavarok-komplex-gyogyszeres-pszichoterapias-kezelese",
   },
-  openGraph: {
-    title: "Pszichiátriai és pszichoszomatikus zavarok komplex kezelése - Dr. Erdélyi Kálmán",
-    description:
-      "Pszichiátriai és pszichoszomatikus zavarok komplex kezelése gyógyszeres és pszichoterápiás módszerekkel a testi és lelki egyensúly helyreállításáért.",
-    url: "https://www.erdelyimental.hu/terapias-modszereim/pszichiatriai-pszichoszomatikus-zavarok-komplex-gyogyszeres-pszichoterapias-kezelese",
-    siteName: "Dr. Erdélyi Kálmán",
-    locale: "hu_HU",
-  },
+
 }
 
 export default function PszichiátriaKezelésPage() {

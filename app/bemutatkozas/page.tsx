@@ -11,15 +11,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.erdelyimental.hu/bemutatkozas",
   },
-  openGraph: {
-    title: "Bemutatkozás – Dr. Erdélyi Kálmán",
-    description:
-      "Ismerje meg szakmai tapasztalataimat, végzettségeimet és terápiás megközelítésemet.",
-    url: "https://www.erdelyimental.hu/bemutatkozas",
-    siteName: "Dr. Erdélyi Kálmán",
-    locale: "hu_HU",
-
-  },
 }
 
 export default function BemutatkozasPage() {

@@ -9,14 +9,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.erdelyimental.hu/terapias-modszereim/csoportterapia-csoportpszichoterapia",
   },
-  openGraph: {
-    title: "Csoportterápia - Csoportpszichoterápia - Dr. Erdélyi Kálmán",
-    description:
-      "A csoportterápia és csoportpszichoterápia a közösség erejével segít lelki problémák feldolgozásában, önismeret fejlesztésében és gyógyulásban",
-    url: "https://www.erdelyimental.hu/terapias-modszereim/csoportterapia-csoportpszichoterapia",
-    siteName: "Dr. Erdélyi Kálmán",
-    locale: "hu_HU",
-  },
 }
 
 export default function CsoportterapiaPage() {

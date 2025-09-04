@@ -9,14 +9,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.erdelyimental.hu/mire-szolgal-a-pszichoterapia",
   },
-  openGraph: {
-    title: "Mire szolgál a pszichoterápia – Dr. Erdélyi Kálmán",
-    description:
-      "Ismerje meg, mikor érdemes pszichoterapeutához fordulni, mi a pszichoterápia célja és melyek a sikeres terápia alapfeltételei.",
-    url: "https://www.erdelyimental.hu/mire-szolgal-a-pszichoterapia",
-    siteName: "Dr. Erdélyi Kálmán",
-    locale: "hu_HU",
-  },
 }
 
 export default function MireServesPage() {

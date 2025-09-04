@@ -9,14 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.erdelyimental.hu/terapias-modszereim/alomkozpontu-dinamikus-rovidterapia",
   },
-  openGraph: {
-    title: "Álomközpontú dinamikus rövidterápia - Dr. Erdélyi Kálmán",
-    description:
-      "Az álomközpontú dinamikus rövidterápia az álmok elemzésével tárja fel a rejtett lelki feszültségeket, és segít hatékony megoldásokat találni.",
-    url: "https://www.erdelyimental.hu/terapias-modszereim/alomkozpontu-dinamikus-rovidterapia",
-    siteName: "Dr. Erdélyi Kálmán",
-    locale: "hu_HU",
-  },
+
 }
 
 export default function AlomkozpontuTerapiaPage() {

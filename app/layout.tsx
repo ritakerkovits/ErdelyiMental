@@ -41,8 +41,8 @@ export const metadata: Metadata = {
     locale: "hu_HU",
         images: [
       {
-        url: "/images/og-logo.jpg", // relative to /public or absolute URL
-        width: 1200, // recommended for social previews
+        url: "/images/og-logo.jpg", 
+        width: 1200, 
         height: 630,
         alt: "Dr. Erdélyi Kálmán logo",
       },

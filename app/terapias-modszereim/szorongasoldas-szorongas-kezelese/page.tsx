@@ -10,14 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.erdelyimental.hu/terapias-modszereim/szorongasoldas-szorongas-kezelese",
   },
-  openGraph: {
-    title: "Szorongásoldás - Dr. Erdélyi Kálmán",
-    description:
-      "Szorongásoldás relaxációs és pszichológiai módszerekkel segít testi-lelki egyensúly visszaállításában, lelki okok feltárásában és tartós megnyugvásban.",
-    url: "https://www.erdelyimental.hu/terapias-modszereim/szorongasoldas-szorongas-kezelese",
-    siteName: "Dr. Erdélyi Kálmán",
-    locale: "hu_HU",
-  },
+
 }
 
 export default function SzorongasoldásPage() {

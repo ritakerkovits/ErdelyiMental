@@ -9,14 +9,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/terapias-modszereim/lelki-munka-belso-kepekkel-imaginacio-es-alomelemzes",
   },
-  openGraph: {
-    title: "Lelki munka belső képekkel és álomelemzés – Dr. Erdélyi Kálmán",
-    description:
-      "Az imagináció és álomelemzés belső képekkel segít feltárni a tudattalan üzeneteit, oldani lelki feszültségeket és támogatni a mély érzelmi változást.",
-    url: "https://www.erdelyimental.hu/terapias-modszereim/lelki-munka-belso-kepekkel-imaginacio-es-alomelemzes",
-    siteName: "Dr. Erdélyi Kálmán",
-    locale: "hu_HU",
-  },
 }
 
 export default function AlomelemzésPage() {
