@@ -10,14 +10,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.erdelyimental.hu/kapcsolat",
   },
-  openGraph: {
-    title: "Kapcsolat - Dr. Erdélyi Kálmán",
-    description:
-      "Vegye fel velem a kapcsolatot! A rendelési időimről és elérhetőségeimről az oldalon tájékozódhat.",
-    url: "https://www.erdelyimental.hu/kapcsolat",
-    siteName: "Dr. Erdélyi Kálmán",
-    locale: "hu_HU",
-  },
 }
 
 export default function KapcsolatPage() {
