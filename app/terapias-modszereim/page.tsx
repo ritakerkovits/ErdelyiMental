@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/terapias-modszereim",
   },
+  openGraph: {
+    title: "Dr. Erdélyi Kálmán - Pszichiáter és Pszichoterapeuta",
+    description:
+      "Terápiás módszereim között szerepel az önismeretfejlesztés, életvezetési tanácsadás, kapcsolati nehézségek és szorongásoldás, és további más szakmai szolgáltatások.",
+  },  
 }
 
 export default function TerapiasModszereimPage() {
