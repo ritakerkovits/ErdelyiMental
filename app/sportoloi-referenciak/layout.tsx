@@ -8,6 +8,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/sportoloi-referenciak",
   },
+  openGraph: {
+    title: "Referenciák - Dr. Erdélyi Kálmán",
+    description:
+      "Sportolói referenciák és visszajelzések mentális felkészítésről és pszichoterápiáról. Olimpiai és világbajnok sportolók tapasztalatai első kézből.",
+    images: ["/images/og-logo.jpg"],
+  },  
 }
 
 export default function ReferenciakLayout({

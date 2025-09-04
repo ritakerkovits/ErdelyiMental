@@ -9,6 +9,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.erdelyimental.hu/terapias-modszereim/kapcsolati-nehezsegek-kezelese",
   },
+  openGraph: {
+    title: "Párkapcsolati nehézségek rendezése - Dr. Erdélyi Kálmán",
+    description:
+      "Párkapcsolati tanácsadás és terápia a konfliktusok kezelésére, kommunikáció javítására és érzelmi közeledés elősegítésére a tartós harmónia érdekében.",
+    images: ["/images/og-logo.jpg"],
+  },  
 }
 
 export default function KapcsolatiNehezségekPage() {

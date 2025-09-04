@@ -9,6 +9,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.erdelyimental.hu/terapias-modszereim/vizualis-terapia-rajz-es-szimbolum-elemzes",
   },
+  openGraph: {
+    title: "Rejtett lelki utak vizuális megjelenítése - Dr. Erdélyi Kálmán",
+    description:
+      "A szimbólumelemzés és rajzelemzés képi kifejezésen keresztül segít feldolgozni lelki terheket, csökkenteni feszültséget és támogatni az érzelmi gyógyulást.",
+    images: ["/images/og-logo.jpg"],
+  }, 
 
 }
 

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     canonical: "https://www.erdelyimental.hu/bemutatkozas",
   },
   openGraph: {
-    title: "Dr. Erdélyi Kálmán - Pszichiáter és Pszichoterapeuta",
+    title: "Bemutatkozás - Dr. Erdélyi Kálmán",
     description:
       "Ismerje meg szakmai tapasztalataimat, végzettségeimet és terápiás megközelítésemet.",
     images: ["/images/og-logo.jpg"],

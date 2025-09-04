@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     url: "https://www.erdelyimental.hu",
     siteName: "Dr. Erdélyi Kálmán",
     locale: "hu_HU",
-        images: [
+    images: [
       {
         url: "/images/og-logo.jpg", 
         width: 1200, 

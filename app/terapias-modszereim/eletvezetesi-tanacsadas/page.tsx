@@ -9,6 +9,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.erdelyimental.hu/terapias-modszereim/eletvezetesi-tanacsadas",
   },
+  openGraph: {
+    title: "Életvezetési tanácsadás - Dr. Erdélyi Kálmán",
+    description:
+      "Az életvezetési tanácsadás közös gondolkodással segít új megoldásokat találni, elakadások feloldásában és a saját út megtalálásában.",
+    images: ["/images/og-logo.jpg"],
+  },  
+
+
+
 }
 
 export default function EletvezetesiTanacsadasPage() {
