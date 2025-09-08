@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Az imagináció és álomelemzés belső képekkel segít feltárni a tudattalan üzeneteit, oldani lelki feszültségeket és támogatni a mély érzelmi változást.",
   alternates: {
-    canonical: "/terapias-modszereim/lelki-munka-belso-kepekkel-imaginacio-es-alomelemzes",
+    canonical: "https://www.erdelyimental.hu/terapias-modszereim/lelki-munka-belso-kepekkel-imaginacio-es-alomelemzes",
   },
   openGraph: {
     title: "Lelki munka belső képekkel és álomelemzés - Dr. Erdélyi Kálmán",
