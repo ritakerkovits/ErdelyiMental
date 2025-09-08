@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Terápiás módszereim között szerepel az önismeretfejlesztés, életvezetési tanácsadás, kapcsolati nehézségek és szorongásoldás, és további más szakmai szolgáltatások.",
   alternates: {
-    canonical: "/terapias-modszereim",
+    canonical: "https://www.erdelyimental.hu/terapias-modszereim",
   },
   openGraph: {
     title: "Terápiás módszereim - Dr. Erdélyi Kálmán",
