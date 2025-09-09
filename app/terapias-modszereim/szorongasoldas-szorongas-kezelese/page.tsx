@@ -107,8 +107,8 @@ export default function SzorongasoldásPage() {
                 Az inkább testi pihenést, nyugalmat kívánó személy számára előnyösebbek a meditatív típusú ellazító
                 módszerek, amelyek belső koncentrációt, szellemi aktivitást kívánnak. Legismertebb eljárás ezek közül az
                 autogén tréning. Mivel ez a módszer a szorongásoldó és ellazító eljáráson túl a lelki eredetű testi
-                tünetek, az úgynevezett {" "} <Link href="/terapias-modszereim/pszichiatriai-pszichoszomatikus-zavarok-komplex-gyogyszeres-pszichoterapias-kezelese" className="text-dark-blue underline hover:text-dark-blue/80">pszichoszomatikus zavarok gyógyításában</Link>{" "} is fontos szerepet játszik, ezért bővebb
-                ismertetésére a {" "} <Link href="/terapias-modszereim/stresszkezeles-stresszoldas" className="text-dark-blue underline hover:text-dark-blue/80">stresszkezelés</Link>{" "} kapcsán kerül sor.
+                tünetek, az úgynevezett {" "} <Link href="https://www.erdelyimental.hu/terapias-modszereim/pszichiatriai-pszichoszomatikus-zavarok-komplex-gyogyszeres-pszichoterapias-kezelese" className="text-dark-blue underline hover:text-dark-blue/80">pszichoszomatikus zavarok gyógyításában</Link>{" "} is fontos szerepet játszik, ezért bővebb
+                ismertetésére a {" "} <Link href="https://www.erdelyimental.hu/terapias-modszereim/stresszkezeles-stresszoldas" className="text-dark-blue underline hover:text-dark-blue/80">stresszkezelés</Link>{" "} kapcsán kerül sor.
               </p>
               </AnimatedElement>
               <AnimatedElement animation="fadeUp" delay={600}>
